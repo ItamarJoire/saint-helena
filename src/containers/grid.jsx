@@ -1,6 +1,6 @@
 export function Grid({children}){
   return(
-    <div className="mx-6 sm:mx-28">
+    <div className="mx-6 md:mx-28">
       {children}
     </div>
   )
