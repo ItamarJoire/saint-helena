@@ -1,4 +1,4 @@
-import { Header, Hero, Carousel } from "../components";
+import { Header, Hero, Carousel, Footer } from "../components";
 
 export function Home(){
   return(
@@ -6,6 +6,7 @@ export function Home(){
       <Header />
       <Hero />
       <Carousel />
+      <Footer />
     </>
   )
 }
