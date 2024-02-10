@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay, Pagination } from 'swiper/modules'
+import { Navigation, Autoplay } from 'swiper/modules'
 
 import 'swiper/css';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
+
+import Img1 from '../assets/img-1.png'
 
 export function Carousel(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
@@ -38,29 +40,45 @@ export function Carousel(){
 
       className='mySwiper'
       spaceBetween={20}
-      slidesPerView={1}
+      slidesPerView={4}
       loop={true}
       autoplay={{ delay: 4000, disableOnInteraction: false }}
-      modules={[Navigation, Pagination, Autoplay ]}
+      centeredSlides={true}
+      modules={[Navigation, Autoplay ]}
       navigation={navigationEnabled ? true : false}
-      pagination={{ enabled: navigationEnabled ? false : true }}
+      // pagination={{ enabled: navigationEnabled ? false : true }}
       breakpoints={{
         640: { slidesPerView: 2 },
         768: { slidesPerView: 3 },
         1024:{ slidesPerView: 4 },
       }}
     >
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
-      <SwiperSlide><div className='h-8 bg-primary'>Item</div></SwiperSlide>
+      <SwiperSlide>
+        <div>
+          <img className='rounded' src={Img1} alt="" />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>
+          <img className='rounded' src={Img1} alt="" />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>
+          <img className='rounded' src={Img1} alt="" />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>
+          <img className='rounded' src={Img1} alt="" />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>
+          <img className='rounded' src={Img1} alt="" />
+        </div>
+      </SwiperSlide>
+    
     </Swiper>
   );
 };
