@@ -8,9 +8,21 @@ import 'swiper/css/navigation';
 
 import Img1 from '../assets/img-1.png'
 
+const Imgs = [
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+  { src: Img1, alt: '' },
+]
+
 export function Carousel(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
-
+  
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640 && navigationEnabled) {
@@ -33,52 +45,33 @@ export function Carousel(){
     <Swiper
       style={{
         '--swiper-navigation-size': '24px',
-        '--swiper-navigation-top-offset': '40%',
-        '--swiper-navigation-sides-offset': '40px',
-        '--swiper-navigation-color': '#000',
+        '--swiper-navigation-top-offset': '50%',
+        '--swiper-navigation-sides-offset': '16px',
+        // '--swiper-navigation-color': '#09B451',
       }}
 
-      className='mySwiper'
-      spaceBetween={20}
+      className='mySwiper my-4 mx-6 md:mx-16 lg:mx-28'
+      spaceBetween={12}
       slidesPerView={4}
       loop={true}
       autoplay={{ delay: 4000, disableOnInteraction: false }}
       centeredSlides={true}
       modules={[Navigation, Autoplay ]}
       navigation={navigationEnabled ? true : false}
-      // pagination={{ enabled: navigationEnabled ? false : true }}
       breakpoints={{
-        640: { slidesPerView: 2 },
-        768: { slidesPerView: 3 },
-        1024:{ slidesPerView: 4 },
+        640: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
       }}
     >
-      <SwiperSlide>
-        <div>
-          <img className='rounded' src={Img1} alt="" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div>
-          <img className='rounded' src={Img1} alt="" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div>
-          <img className='rounded' src={Img1} alt="" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div>
-          <img className='rounded' src={Img1} alt="" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div>
-          <img className='rounded' src={Img1} alt="" />
-        </div>
-      </SwiperSlide>
-    
+      { 
+        Imgs.map((img, index) => (
+          <SwiperSlide key={index}>
+            <div>
+              <img className='rounded sm:w-[500px]' src={img.src} alt={img.alt} />
+            </div>
+          </SwiperSlide>
+        ))
+      }
     </Swiper>
   );
 };
