@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 import emailjs from '@emailjs/browser'
+import { toast } from "react-toastify"
 
 import { Grid } from '../containers'
 
@@ -13,7 +14,7 @@ export function Forms(){
     e.preventDefault()
 
     if(name === '' || email === '' || message === ''){
-      alert('Preencha todos os campos!')
+      toast.error('Preencha todos os campos, por favor!')
       return
     }
 
@@ -29,6 +30,7 @@ export function Forms(){
       setName('')
       setEmail('')
       setMessage('')
+      toast.success('Obrigado pelo contato!')
     }, (err) => {
       console.log('Erro', err)
     })
