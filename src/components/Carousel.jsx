@@ -42,8 +42,8 @@ export function Carousel(){
   }, [navigationEnabled]);
 
   return (
-    <div id='slides'>
-      <h1>slides</h1>
+    <div id='slides' className='mySwiper my-4 mx-6 md:mx-16 lg:mx-28'>
+      <h1 className="text-xl font-semibold mb-4">Slides</h1>
       <Swiper
         style={{
           '--swiper-navigation-size': '24px',
@@ -52,7 +52,7 @@ export function Carousel(){
           // '--swiper-navigation-color': '#09B451',
         }}
 
-        className='mySwiper my-4 mx-6 md:mx-16 lg:mx-28'
+        className=''
         spaceBetween={12}
         slidesPerView={4}
         loop={true}

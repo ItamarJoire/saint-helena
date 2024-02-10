@@ -1,6 +1,4 @@
-import { Header, Hero, Carousel, Footer, Form } from "../components";
-
-
+import { Header, Hero, Carousel, Footer, Forms } from "../components";
 
 export function Home(){
   return(
@@ -8,7 +6,7 @@ export function Home(){
       <Header />
       <Hero />
       <Carousel />
-      <Form />
+      <Forms />
       <Footer />
     </>
   )
