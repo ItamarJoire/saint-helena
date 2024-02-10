@@ -51,7 +51,7 @@ export function Header(){
 
         <ul className="flex gap-8 max-md:flex-col">
           <a href="#about" className="text-gray-op text-base font-semibold hover:opacity-60 duration-150"><li>Sobre</li></a>
-          <a href="#services" className="text-gray-op text-base font-semibold hover:opacity-60 duration-150"><li>Serviços</li></a>
+          <a href="#slides" className="text-gray-op text-base font-semibold hover:opacity-60 duration-150"><li>Slides</li></a>
           <a href="#testmonials" className="text-gray-op text-base font-semibold hover:opacity-60 duration-150"><li>Depoimentos</li></a>
           <a href="#testmonials" className="text-gray-op text-base font-semibold hover:opacity-60 duration-150"><li>Perguntas frequentes</li></a>
         </ul>

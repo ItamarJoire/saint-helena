@@ -42,37 +42,41 @@ export function Carousel(){
   }, [navigationEnabled]);
 
   return (
-    <Swiper
-      style={{
-        '--swiper-navigation-size': '24px',
-        '--swiper-navigation-top-offset': '50%',
-        '--swiper-navigation-sides-offset': '16px',
-        // '--swiper-navigation-color': '#09B451',
-      }}
+    <div id='slides'>
+      <h1>slides</h1>
+      <Swiper
+        style={{
+          '--swiper-navigation-size': '24px',
+          '--swiper-navigation-top-offset': '50%',
+          '--swiper-navigation-sides-offset': '16px',
+          // '--swiper-navigation-color': '#09B451',
+        }}
 
-      className='mySwiper my-4 mx-6 md:mx-16 lg:mx-28'
-      spaceBetween={12}
-      slidesPerView={4}
-      loop={true}
-      autoplay={{ delay: 4000, disableOnInteraction: false }}
-      centeredSlides={true}
-      modules={[Navigation, Autoplay ]}
-      navigation={navigationEnabled ? true : false}
-      breakpoints={{
-        640: { slidesPerView: 3 },
-        768: { slidesPerView: 4 },
-      }}
-    >
-      { 
-        Imgs.map((img, index) => (
-          <SwiperSlide key={index}>
-            <div>
-              <img className='rounded sm:w-[500px]' src={img.src} alt={img.alt} />
-            </div>
-          </SwiperSlide>
-        ))
-      }
-    </Swiper>
+        className='mySwiper my-4 mx-6 md:mx-16 lg:mx-28'
+        spaceBetween={12}
+        slidesPerView={4}
+        loop={true}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
+        centeredSlides={true}
+        modules={[Navigation, Autoplay ]}
+        navigation={navigationEnabled ? true : false}
+        breakpoints={{
+          640: { slidesPerView: 3 },
+          768: { slidesPerView: 4 },
+        }}
+      >
+      
+        { 
+          Imgs.map((img, index) => (
+            <SwiperSlide key={index}>
+              <div>
+                <img className='rounded sm:w-[500px]' src={img.src} alt={img.alt} />
+              </div>
+            </SwiperSlide>
+          ))
+        }
+      </Swiper>
+    </div>
   );
 };
 
