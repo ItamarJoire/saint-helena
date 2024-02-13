@@ -5,13 +5,13 @@ export default {
     screens: {
       md: '769px'
     },
-    colors: {
-      primary: '#212121',
-      white: '#fff'
-    },
+
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./src/assets/bg-hero.jpg')"
+      },
+      colors: {
+        primary: '#212121'
       }
     }
   },
