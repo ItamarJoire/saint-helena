@@ -24,11 +24,11 @@ export function Header(){
                   </button>
                 </div>
               </div>
-            <div className="bg-white mx-2 rounded-b-md">
+            <div className="bg-white mx-2 rounded-b-xl">
               <div className={`flex-1 justify-self-center block pt-4 pl-4 md:mt-0 ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="flex flex-col gap-6 justify-start">
                   <li className="text-xl text-primary text-left ">
-                    <a href="#about" onClick={() => setNavbar(!navbar)}>Sobre</a>
+                    <a href="#about" onClick={() => setNavbar(!navbar)}>Quem somos</a>
                   </li>
                   <li className="text-xl text-primary text-left">
                     <a href="#services" onClick={() => setNavbar(!navbar)}>Serviços</a>
