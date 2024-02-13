@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
 
+import { Link } from "react-scroll"; 
+
 export function Header(){
   const [navbar, setNavbar] = useState(false);
 
@@ -28,16 +30,16 @@ export function Header(){
               <div className={`flex-1 justify-self-center block pt-8 pl-4 md:mt-0 ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="flex flex-col gap-6 justify-start">
                   <li className="text-xl text-primary text-left ">
-                    <a href="#about" onClick={() => setNavbar(!navbar)}>Quem somos</a>
+                    <Link to="about" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
                   </li>
                   <li className="text-xl text-primary text-left">
-                    <a href="#services" onClick={() => setNavbar(!navbar)}>Serviços</a>
+                  <Link to="services" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>Serviços</Link>
                   </li>
                   <li className="text-xl text-primary text-left">
-                    <a href="#testmonials" onClick={() => setNavbar(!navbar)}>Depoimentos</a>
+                  <Link to="testmonials" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>Depoimentos</Link>
                   </li>
                   <li className="text-xl text-primary text-left">
-                    <a href="#faq" onClick={() => setNavbar(!navbar)}>FAQ</a>
+                  <Link to="faq" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
                   </li>
                   <li className="flex gap-3 text-left">
                     <a className="text-primary" href="#" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-7 h-7"/></a>
