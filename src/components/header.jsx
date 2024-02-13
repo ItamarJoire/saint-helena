@@ -8,7 +8,7 @@ export function Header(){
   return(
     <section>
       <div className='relative z-10 md:hidden'>
-        <nav className="absolute z-20 w-full bg-primary drop-shadow-md">
+        <nav className='absolute z-20 bg-primary w-full drop-shadow-md'>
           <div className="justify-between mx-auto md:items-center md:flex md:px-8 lg:max-w-7xl">
               <div className="flex items-center justify-between py-4 md:block md:py-5">
                 <div className="flex w-full px-6 items-center justify-between">
@@ -25,7 +25,7 @@ export function Header(){
                 </div>
               </div>
             <div className="bg-white mx-2 rounded-b-xl">
-              <div className={`flex-1 justify-self-center block pt-4 pl-4 md:mt-0 ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
+              <div className={`flex-1 justify-self-center block pt-8 pl-4 md:mt-0 ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="flex flex-col gap-6 justify-start">
                   <li className="text-xl text-primary text-left ">
                     <a href="#about" onClick={() => setNavbar(!navbar)}>Quem somos</a>
