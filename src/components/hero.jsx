@@ -1,22 +1,24 @@
 import { Grid } from "../containers"
 
-import ImgHero from '../assets/img-hero.png'
+import { FaWhatsapp } from 'react-icons/fa'
 
 export function Hero(){
   return(
-    <Grid>
-      <div className="bg-hero-pattern bg-no-repeat bg-center bg-cover mt-3 md:rounded-3xl">
-        <div className="py-16 lg:flex lg:px-16">
+    <div className="bg-primary">
+      <Grid>
+        <div className="pt-20 pb-20 lg:flex lg:px-16">
           <div>
-            <h2 className="font-['Poppins'] font-bold text-3xl leading-10 capitalize max-w-[400px] mt-16 md:max-w-[500px] md:text-4xl md:leading-[52px]"><span className="text-primary">Educação de qualidade</span> por qualquer meio necessário.</h2>
-
-            <div className="bg-primary flex items-center justify-center w-48 h-16 px-6 mt-8 rounded cursor-pointer hover:opacity-90">
-              <a className="text-white font-semibold text-base capitalize" href="/">Entrar em contato</a>
+            <h2 className="font-['Poppins'] font-bold text-white text-5xl leading-[64px] max-w-[400px] mt-16 md:max-w-[500px] md:text-4xl md:leading-[52px]">O seu lar com beleza e autenticidade</h2>
+            <h4 className="mt-3 font-medium text-white text-xl leading-8">Somos apaixonados por transformar rochas naturais em obras-primas esculturais que elevam a decoração da sua casa a um patamar único.</h4>
+            
+            <div className="bg-white flex items-center justify-center gap-3 w-full h-16 px-6 mt-10 rounded cursor-pointer hover:opacity-90">
+              <FaWhatsapp className="w-6 h-6"/>
+              <a className="text-primary font-bold text-base uppercase" href="/">Entrar em contato</a>
             </div>
           </div>
-          <img className="mt-16 mx-auto md:w-[500px] md:h-[400px]" src={ImgHero} alt="" />
+          {/* <img className="mt-16 mx-auto md:w-[500px] md:h-[400px]" src={ImgHero} alt="" /> */}
         </div>
-      </div>
-    </Grid>
+     </Grid>
+    </div>
   )
 }

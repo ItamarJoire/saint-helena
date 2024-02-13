@@ -2,11 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      md: '769px'
+    },
     colors: {
-      primary: '#09B451',
-      white: '#fff',
-      black: '#000',
-      'gray-op': 'rgba(64, 64, 64, 0.80)'
+      primary: '#212121',
+      white: '#fff'
     },
     extend: {
       backgroundImage: {
