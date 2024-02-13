@@ -4,7 +4,7 @@ import { Grid } from "../containers";
 
 export function Footer(){
   return(
-    <div className="bg-primary pt-12">
+    <section className="bg-primary pt-12">
       <Grid>
         <div className='md:flex md:flex-row-reverse md:justify-end md:items-center md:gap-12'> 
           <div className="flex gap-12">
@@ -28,6 +28,6 @@ export function Footer(){
           </div>
         </div>
       </Grid>
-    </div>
+    </section>
   )
 }

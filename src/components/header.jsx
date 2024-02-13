@@ -30,16 +30,16 @@ export function Header(){
               <div className={`flex-1 justify-self-center block pt-8 pl-4 md:mt-0 ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="flex flex-col gap-6 justify-start">
                   <li className="text-lg text-primary text-left ">
-                    <Link to="about" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
+                    <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
                   </li>
                   <li className="text-lg text-primary text-left">
-                  <Link to="services" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>Serviços</Link>
+                  <Link to="services" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Serviços</Link>
                   </li>
                   <li className="text-lg text-primary text-left">
-                  <Link to="testmonials" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>Depoimentos</Link>
+                  <Link to="testmonials" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Depoimentos</Link>
                   </li>
                   <li className="text-lg text-primary text-left">
-                  <Link to="faq" spy={true} smooth={true} offset={10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
+                  <Link to="faq" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
                   </li>
                   <li className="flex gap-3 text-left">
                     <a className="text-primary" href="#" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-7 h-7"/></a>
