@@ -1,4 +1,4 @@
-import { Header, Hero, Carousel, Footer, Forms, About, Highlights } from "../components";
+import { Header, Hero, Footer, About, Highlights } from "../components";
 
 export function Home(){
   return(

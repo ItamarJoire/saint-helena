@@ -20,7 +20,7 @@ export function Whats(){
     <>
       {showScrollTopButton && 
         <a className="fixed bottom-3 right-3 z-50" href="" >
-          <div className='bg-primary inline-block rounded-full p-3'>
+          <div className='bg-green-700 inline-block rounded-full p-3'>
             <FaWhatsapp className='w-6 h-6 text-white'/>
           </div>
         </a>
