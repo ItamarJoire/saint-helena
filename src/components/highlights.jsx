@@ -3,7 +3,7 @@ import { FaMoneyBill, FaBoxOpen, FaStar  } from 'react-icons/fa'
 export function Highlights(){
   return(
     <div className="bg-white px-3 py-8 rounded-xl mx-4 mt-[-70px]  drop-shadow-md">
-      <h2 className="text-primary text-2xl text-center font-bold ">Nossos diferenciais</h2>
+      <h2 className="text-primary text-xl text-center font-bold ">Nossos diferenciais</h2>
       
       <div className='mt-8 text-center'>
         <div>
