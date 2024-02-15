@@ -11,7 +11,8 @@ export default {
         'hero-pattern': "url('./src/assets/bg-hero.jpg')"
       },
       colors: {
-        primary: '#212121'
+        primary: '#004F93',
+        secondary: '#F6B115'
       }
     }
   },
