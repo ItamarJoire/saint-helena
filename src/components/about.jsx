@@ -2,6 +2,7 @@ import { Grid } from "../containers"
 
 import ImgWhoWeAre from "../assets/about.png"
 
+//
 export function About(){
   return(
     <Grid>
