@@ -7,6 +7,9 @@ export function Home(){
       <Header />
       <Hero />
       <Services />
+      <div className="h-[80vh]">
+
+      </div>
     </>
   )
 }
