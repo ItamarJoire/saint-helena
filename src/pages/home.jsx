@@ -1,16 +1,17 @@
-import { Header, Hero, Footer, About, Highlights, Services } from "../components";
+import { Header, Hero, HeaderContact, About, Highlights, Services } from "../components";
 
 export function Home(){
   return(
     <>
+      <HeaderContact />
       <Header />
       <Hero />
-      <Highlights />
-      <About />
-      <Services />
+      {/* <Highlights /> */}
+      {/* <About /> */}
+      {/* <Services /> */}
       {/* <Carousel /> */}
       {/* <Forms /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

@@ -1,45 +1,74 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import { FaSquareWhatsapp } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
+
+import { Link } from "react-scroll"; 
 
 import Logo from '../assets/logo.svg'
 
-
 export function Header(){
-    let Links =[
-        {name:"HOME", link:"/"},
-        {name:"SERVICE", link:"/"},
-        {name:"ABOUT", link:"/"},
-        {name:"CONTACT", link:"/"},
-      ];
-      let [open, setOpen] =useState(false);
+  const [navbar, setNavbar] = useState(false);
 
-    return (
-        <div className='shadow-md w-full fixed top-0 left-0'>
-           <div className='md:flex flex items-center justify-between bg-white py-6 md:px-10 px-7'>
-                <a href="/"><img src={Logo} width={70} alt="" /></a>
-                   <div>
-                    <FaWhatsapp width={60} hanging={60}/>
-                    </div>
-                <div onClick={()=>setOpen(!open)} className='cursor-pointer md:hidden w-7 h-7'>
-                    {
-                        open ? <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#004F93" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> : <svg  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#004F93" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-                    }
+  return(
+    <section>
+      <div className='relative z-10 md:hidden'>
+        <nav className='absolute z-20 bg-white w-full drop-shadow-md'>
+          <div className="justify-between mx-auto md:items-center md:flex md:px-8 lg:max-w-7xl">
+              <div className="flex items-center justify-between py-4 md:block md:py-5">
+                <div className="flex w-full px-6 items-center justify-between">
+                  <a href="/"><img src={Logo} width={64} height={64} alt="" /></a>
+                  <button className='p-2' onClick={() => setNavbar(!navbar)}>
+                    {navbar ? (
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#004F93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    ) : (
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#004F93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    )}
+                  </button>
                 </div>
-               
-                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12' : 'top-[-490px]'}`}>
-                    {
-                        Links.map((link) => (
-                        <li className='md:ml-8 md:my-0 my-7 font-semibold'>
-                            <a href={link.link} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</a>
-                        </li>))
-                    }
-                    <button className='btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>Get Started</button>
+              </div>
+            <div className="bg-white mx-2 rounded-b-xl ">
+              <div className={`flex-1 justify-self-center block pt-6 pl-6 md:mt-0 transition-all duration-300 ease-in ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
+                <ul className="font-['Bungee'] font-normal tracking-widest flex flex-col gap-6  items-center">
+                  <li className="text-base text-primary text-center ">
+                    <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
+                  </li>
+                  <li className="text-base text-primary text-center">
+                  <Link to="services" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Serviços</Link>
+                  </li>
+                  <li className="text-base text-primary text-center">
+                  <Link to="faq" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
+                  </li>
+                  <li className="flex gap-3 text-center">
+                  
+                    <button className='btn bg-secondary-red text-white md:ml-8 font-semibold px-4 py-2 rounded duration-500 md:static tracking-widest'>Entrar em contato</button>
+                  </li>
+                  <li className="flex gap-3 text-center">
+                    <a className="text-primary" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-6 h-6"/></a>
+                    <a className="text-primary" href="https://www.instagram.com/dinah.decor/" target="_blank" onClick={() => setNavbar(!navbar)}><FaInstagram className="w-6 h-6"/></a>
+                  </li>
                 </ul>
-           </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-        </div>
+      <header className={`drop-shadow-md max-md:hidden flex px-6 h-[84px] items-center justify-around ${navbar ? 'hidden' : 'max-md:h-[60vh] max-md:flex-col max-md:gap-1 max-md:items-start max-md:justify-start bg-primary max-md:w-full'}`}>
+      <a href="/"><img src={Logo} width={80} height={80} alt="" /></a>
+
+        <ul className="flex gap-8 max-md:flex-col">
+        <Link to="about" spy={true} smooth={true} offset={0} duration={500} className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Sobre</li></Link>
+        <Link to="services" spy={true} smooth={true} offset={0} duration={500} className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Serviços</li></Link>
+        <Link to="faq" spy={true} smooth={true} offset={0} duration={500} className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>FAQ</li></Link>
+        </ul>
         
-    );
-};
+        <div className="hidden lg:flex lg:gap-3">
+          <a className="text-white cursor-pointer" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-6 h-6"/></a>
+          <a className="text-white cursor-pointer" href="https://www.instagram.com/dinah.decor/" target="_blank" onClick={() => setNavbar(!navbar)}><FaInstagram className="w-6 h-6"/></a>
+          
+        </div>
+      </header>
+  </section>
+  )
+}
+
