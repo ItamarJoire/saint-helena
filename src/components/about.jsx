@@ -1,13 +1,13 @@
 import { Grid } from "../containers"
 
-import ImgWhoWeAre from "../assets/about.png"
+// import ImgWhoWeAre from "../assets/about.png"
 
-//
 export function About(){
   return(
+    <div className="bg-hero-pattern-blue">
     <Grid>
-      <section id="about" className="py-12">
-        <img className="rounded mx-auto" src={ImgWhoWeAre} alt="" />
+      <section id="about" className="py-12 ">
+        {/* <img className="rounded mx-auto" src={ImgWhoWeAre} alt="" /> */}
         <div>
           <h2 className="mt-4 text-base font-bold text-center tracking-wide text-primary uppercase">Quem somos</h2>
           <p className="mt-4 p-2 text-[#9e9e9e] text-lg text-center leading-7">
@@ -16,5 +16,6 @@ export function About(){
         </div>
       </section>
     </Grid>
+    </div>
   )
 }

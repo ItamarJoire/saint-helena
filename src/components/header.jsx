@@ -26,7 +26,7 @@ export function Header(){
                   </button>
                 </div>
               </div>
-            <div className="bg-primary mx-2 rounded-b-xl ">
+            <div className="bg-primary mx-2 rounded-b-2xl ">
               <div className={`flex-1 justify-self-center block pt-6 pl-6 md:mt-0 transition-all duration-300 ease-in ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="font-['Bungee'] font-normal tracking-widest flex flex-col gap-6  items-center">
                   <li className="text-base text-primary-2 text-center ">

@@ -6,6 +6,7 @@ export function Home(){
       <HeaderContact />
       <Header />
       <Hero />
+      <About />
       {/* <Highlights /> */}
       {/* <About /> */}
       {/* <Services /> */}
