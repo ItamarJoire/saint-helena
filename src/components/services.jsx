@@ -12,6 +12,7 @@ export function Services(){
           </h3> 
           
           <Carousel />
+          
         </Grid>
       </section>
     </div>
