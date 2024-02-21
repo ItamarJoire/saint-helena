@@ -1,13 +1,10 @@
 import { Grid } from "../containers"
 
-import Wave from "../assets/wave.svg"
-
 export function About(){
   return(
     <div className="">
     <Grid>
       <section id="about" className=" rounded-t-md">
-        {/* <img className="rounded mx-auto" src={ImgWhoWeAre} alt="" /> */}
         <div>
           <h2 className="mt-4 text-base font-bold text-center tracking-wide text-primary uppercase">Quem somos</h2>
           <p className="mt-4 p-2 text-[#9e9e9e] text-lg text-center leading-7">

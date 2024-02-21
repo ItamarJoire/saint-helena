@@ -3,8 +3,8 @@ import { Carousel } from "./carousel";
 
 export function Services(){
   return(
-    <div className="bg-hero-pattern-nature bg-cover bg-no-repeat pb-56">
-      <section id="services" className="h-auto">
+    <div className="bg-hero-pattern-nature bg-cover bg-no-repeat pb-72">
+      <section  id="services" className="h-auto text-center">
         <Grid>
           <h1 className="font-['Bungee'] text-primary text-xl text-center font-extrabold tracking-widest">Na Saint Helena seu <span className="text-secondary-yellow">filho tem contato</span> com a natureza
           </h1>
@@ -12,7 +12,10 @@ export function Services(){
           </h3> 
           
           <Carousel />
-          
+
+          <button className="font-['Bungee'] mt-4 text-lg text-center shadow-md  font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+              Saiba mais
+          </button>
         </Grid>
       </section>
     </div>
