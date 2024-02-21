@@ -1,12 +1,12 @@
 import { Grid } from "../containers"
 
-// import ImgWhoWeAre from "../assets/about.png"
+import Wave from "../assets/wave.svg"
 
 export function About(){
   return(
     <div className="">
     <Grid>
-      <section id="about" className="py-12 ">
+      <section id="about" className=" rounded-t-md">
         {/* <img className="rounded mx-auto" src={ImgWhoWeAre} alt="" /> */}
         <div>
           <h2 className="mt-4 text-base font-bold text-center tracking-wide text-primary uppercase">Quem somos</h2>

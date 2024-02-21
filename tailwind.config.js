@@ -8,8 +8,7 @@ export default {
 
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('./src/assets/bg-hero.jpg')",
-        'hero-pattern-blue': "url('./src/assets/bg-blue.jpg')"
+        'hero-pattern': "url('./src/assets/bg-hero.jpg')"
       },
       colors: {
         primary: '#004F93',
