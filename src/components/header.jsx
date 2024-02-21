@@ -4,7 +4,7 @@ import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
 
 import { Link } from "react-scroll"; 
 
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo-white.svg'
 
 export function Header(){
   const [navbar, setNavbar] = useState(false);
@@ -12,39 +12,39 @@ export function Header(){
   return(
     <section>
       <div className='relative z-10 md:hidden'>
-        <nav className='absolute z-20 bg-white w-full drop-shadow-md'>
+        <nav className='absolute z-20 bg-primary w-full drop-shadow-md'>
           <div className="justify-between mx-auto md:items-center md:flex md:px-8 lg:max-w-7xl">
               <div className="flex items-center justify-between py-4 md:block md:py-5">
                 <div className="flex w-full px-6 items-center justify-between">
                   <a href="/"><img src={Logo} width={64} height={64} alt="" /></a>
                   <button className='p-2' onClick={() => setNavbar(!navbar)}>
                     {navbar ? (
-                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#004F93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                     ) : (
-                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#004F93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                     )}
                   </button>
                 </div>
               </div>
-            <div className="bg-white mx-2 rounded-b-xl ">
+            <div className="bg-primary mx-2 rounded-b-xl ">
               <div className={`flex-1 justify-self-center block pt-6 pl-6 md:mt-0 transition-all duration-300 ease-in ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="font-['Bungee'] font-normal tracking-widest flex flex-col gap-6  items-center">
-                  <li className="text-base text-primary text-center ">
+                  <li className="text-base text-primary-2 text-center ">
                     <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
                   </li>
-                  <li className="text-base text-primary text-center">
+                  <li className="text-base text-primary-2 text-center">
                   <Link to="services" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Serviços</Link>
                   </li>
-                  <li className="text-base text-primary text-center">
+                  <li className="text-base text-primary-2 text-center">
                   <Link to="faq" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
                   </li>
                   <li className="flex gap-3 text-center">
                   
-                    <button className='btn bg-secondary-red text-white md:ml-8 font-semibold px-4 py-2 rounded duration-500 md:static tracking-widest'>Entrar em contato</button>
+                    <button className='btn bg-secondary-yellow text-white md:ml-8 font-semibold px-4 py-2 rounded duration-500 md:static tracking-widest'>Entrar em contato</button>
                   </li>
                   <li className="flex gap-3 text-center">
-                    <a className="text-primary" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-6 h-6"/></a>
-                    <a className="text-primary" href="https://www.instagram.com/dinah.decor/" target="_blank" onClick={() => setNavbar(!navbar)}><FaInstagram className="w-6 h-6"/></a>
+                    <a className="text-primary-2" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-6 h-6"/></a>
+                    <a className="text-primary-2" href="https://www.instagram.com/dinah.decor/" target="_blank" onClick={() => setNavbar(!navbar)}><FaInstagram className="w-6 h-6"/></a>
                   </li>
                 </ul>
               </div>
