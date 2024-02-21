@@ -4,7 +4,7 @@ import { Grid } from "../containers"
 
 export function About(){
   return(
-    <div className="bg-hero-pattern-blue">
+    <div className="">
     <Grid>
       <section id="about" className="py-12 ">
         {/* <img className="rounded mx-auto" src={ImgWhoWeAre} alt="" /> */}
