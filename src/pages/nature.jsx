@@ -16,10 +16,14 @@ export function Nature(){
         </p>
         </div>
        
-          <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+          
+          
+      </Grid>
+      
+      <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
             {
               ImgsChildrensNature.map((img) => (
-                <div className="shadow-xl flex items-center justify-center rounded-full bg-[#44A930] opacity-90 h-44 w-44 overflow-hidden">
+                <div className="shadow-xl flex items-center mx-auto justify-center rounded-full bg-[#44A930] opacity-90 h-[168px] w-[168px] overflow-hidden">
                 <div className="bg-contain rounded-full h-40 w-40 overflow-hidden" src>
                   <img className="size-40" src={img.src}  alt={img.alt} />
                 </div>
@@ -28,6 +32,7 @@ export function Nature(){
             }
           </div>
 
+          <Grid>
           <div className="mt-20 flex gap-4 items-center">
             <div className="inline-block rounded-lg h-40 w-2 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-zinc-500">
@@ -37,7 +42,7 @@ export function Nature(){
               e admirar as plantas.
             </p>
           </div>
-      </Grid>
+          </Grid>
 
     </section>
   )
