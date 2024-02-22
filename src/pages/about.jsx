@@ -1,7 +1,7 @@
 export function About(){
   return(
-    <div>
+    <section className="mt-24">
       <h1>About</h1>
-    </div>
+    </section>
   )
 }

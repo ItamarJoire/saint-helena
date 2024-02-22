@@ -30,10 +30,10 @@ export function Header(){
               <div className={`flex-1  justify-self-center block pt-6 pl-6 md:mt-0 transition-all duration-300 ease-in ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="font-['Bungee'] font-normal tracking-widest flex flex-col gap-6  items-center">
                   <li className="text-xl text-primary-2 text-center ">
-                    <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={() => setNavbar(!navbar)}>Quem somos</Link>
+                    <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={() => setNavbar(!navbar)}>Sobre</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
-                  <Link to="services" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Serviços</Link>
+                  <Link to="services" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Estrutura</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
                   <Link to="faq" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
