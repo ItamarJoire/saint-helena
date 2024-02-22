@@ -16,7 +16,7 @@ export function Services(){
           <Carousel />
 
           <Link to='/contato-com-a-natureza'>
-          <button className="font-['Bungee'] mt-8 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+          <button className="font-['Bungee'] mt-8 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-[#44A930] to-[#2D6F20] text-white hover:opacity-90 duration-200">
       Saiba mais
     </button>
           </Link>
