@@ -8,7 +8,7 @@ export function Nature(){
       <Grid>
         <div className="">
         <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">O contato das crianças com a <span className="text-[#44A930]">natureza</span></h1>
-        <p className="mt-4 text-center text-zinc-500 ">
+        <p className="mt-4 text-center text-xl text-zinc-500 ">
           É extremamente importante que as crianças entrem em contato com a natureza, pois melhora a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
           <br />
           <br />
@@ -34,7 +34,7 @@ export function Nature(){
 
           <Grid>
           <div className="mt-20 flex gap-4 items-center">
-            <div className="inline-block rounded-lg h-40 w-2 bg-secondary-yellow"></div>
+            <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-zinc-500">
               <span className="font-bold">Incentivamos</span> nossos alunos a
               cuidarem dos recursos naturais,
