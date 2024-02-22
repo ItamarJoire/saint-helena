@@ -16,3 +16,21 @@ body{
     font-size: 24px; 
   }
 
+/* Estilizando o scrollbar em navegadores baseados em WebKit (como Chrome, Safari, Opera) */
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* largura da barra de rolagem */
+}
+
+/* Estilizando o thumb (a parte arrastável da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* cor do thumb */
+  border-radius: 6px; /* borda do thumb */
+}
+
+/* Estilizando a track (a parte não arrastável da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* cor da track */
+}
+
+
