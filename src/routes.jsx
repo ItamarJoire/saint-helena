@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { Home, Nature, About } from './pages'
 
-import { Header, HeaderContact } from "./components"
+import { Header, HeaderContact, Footer } from "./components"
 
 export function RoutesApp() {
   return (
@@ -16,6 +16,7 @@ export function RoutesApp() {
         <Route path="/contato-com-a-natureza" element={<Nature />} />
         <Route path="/sobre" element={<About />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
