@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom'
+
 import LogoContainer from '../assets/logo-container.svg'
-import { Grid } from '../containers';
+import { Grid } from '../containers'
 
 export function Hero() {
   return (
@@ -7,11 +9,13 @@ export function Hero() {
       <section className=" pt-20 flex items-center justify-center w-full bg-hero-pattern bg-no-repeat bg-center bg-cover md:justify-start md:pt-0 md:h-[40vh] lg:h-[70vh]">
           <div className="m-4 text-center px-4 py-8  rounded-xl sm:max-w-[60%]  lg:max-w-[40%] lg:mx-0 lg:ml-16 lg:px-8">
           <div>
-            <img className='size-60 opacity-80' src={LogoContainer} alt="" />
+            <img className='size-60 opacity-90' src={LogoContainer} alt="" />
           </div>
-            <button className="font-['Bungee'] mt-8 text-xl  shadow-md  font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-primary to-primary-light text-white hover:opacity-90 duration-200">
-              Saiba mais
-            </button>
+           <Link to='/sobre'> 
+              <button className="font-['Bungee'] mt-8 text-xl  shadow-md  font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-primary to-primary-light text-white hover:opacity-90 duration-200">
+                Saiba mais
+              </button>
+            </Link>
           </div>  
           
       </section>

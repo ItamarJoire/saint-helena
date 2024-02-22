@@ -1,5 +1,7 @@
-import { Grid } from "../containers";
-import { Carousel } from "./carousel";
+import { Link } from "react-router-dom"
+
+import { Grid } from "../containers"
+import { Carousel } from "./carousel"
 
 export function Services(){
   return(
@@ -13,9 +15,11 @@ export function Services(){
           
           <Carousel />
 
-          <button className="font-['Bungee'] mt-4 text-xl text-center shadow-md  font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+          <Link to='/contato-com-a-natureza'>
+            <button className="font-['Bungee'] mt-4 text-xl text-center shadow-md  font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
               Saiba mais
-          </button>
+            </button>
+          </Link>
         </Grid>
       </section>
     </div>
