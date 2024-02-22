@@ -10,11 +10,11 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/bg-hero.jpg')",
         'hero-pattern-nature': "url('/bg-nature.jpg')",
-        'hero-pattern-nature-page': "url('/bg-nature-page.jpg')",
+        // 'hero-pattern-nature-page': "url('/bg-nature-page.png')",
         'hero-pattern-nature-texture': "url('/bg-texture.png')"
       },
       colors: {
-        primary: '#004F93',
+        primary: '#004E92',
         'primary-dark': '#003461',
         'primary-light': '#006BC7',
         'primary-2': '#fff',

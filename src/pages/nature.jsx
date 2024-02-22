@@ -4,7 +4,7 @@ import { ImgsChildrensNature } from "../lib/imgs";
 
 export function Nature(){
   return(
-    <section className="mt-20 pt-6 pb-96 bg-hero-pattern-nature-page bg-cover bg-no-repeat h-auto">
+    <section className="mt-20 pt-6  bg-hero-pattern-nature-page bg-cover bg-no-repeat h-auto">
       <Grid>
         <div className="mb-20">
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">O contato das crianças com a <span className="text-[#44A930]">natureza</span></h1>
@@ -39,7 +39,7 @@ export function Nature(){
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,64L120,64C240,64,480,64,720,58.7C960,53,1200,43,1320,37.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
           <Grid>
-          <div className="mt-20 flex gap-4 items-center">
+          <div className="mt-2 pb-20 flex gap-4 items-center">
             <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-zinc-500">
               <span className="font-bold">Incentivamos</span> nossos alunos a
@@ -49,7 +49,9 @@ export function Nature(){
             </p>
           </div>
           </Grid>
-
+          <img className="w-full" src={imgNature} alt="" />
     </section>
   )
 }
+
+import imgNature from '/bg-nature-page.png'

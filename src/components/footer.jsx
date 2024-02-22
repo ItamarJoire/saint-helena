@@ -20,7 +20,7 @@ export function Footer(){
         
           <div className='mt-8 border-t-[1px] border-[#CDCDCD] border-opacity-30 rounded'></div>
           <div className=' text-[#CDCDCD] text-base font-medium text-center py-8'>
-            © Desde 2024 - Todos os direitos reservados
+            © 2024 - Todos os direitos reservados
             <ul className='flex gap-3 mt-4 justify-center'>
                 <li><a href="/"><FaWhatsapp  className='text-[#CDCDCD] ' size={24}/></a></li>
                 <li><a href="/"><FaInstagram className='text-[#CDCDCD]' size={24}/></a></li>
