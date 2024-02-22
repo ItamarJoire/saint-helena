@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import LogoContainer from '../assets/logo-container.svg'
 import { Grid } from '../containers'
 
+import { ButtonGradient } from '../components';
+
 export function Hero() {
   return (
     <div>
@@ -12,14 +14,12 @@ export function Hero() {
             <img className='size-60 opacity-90' src={LogoContainer} alt="" />
           </div>
            <Link to='/sobre'> 
-              <button className="font-['Bungee'] mt-8 text-xl  shadow-md  font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-primary to-primary-light text-white hover:opacity-90 duration-200">
-                Saiba mais
-              </button>
+              <ButtonGradient name='Saiba mais' from='primary' to='primary-dark' mt='8'/>
             </Link>
           </div>  
           
       </section>
-      <div className='bg-primary '>
+      <div className='bg-primary'>
         <Grid>
           <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">12 anos de excelência em <span className="text-secondary-yellow">educação bilíngue</span></h1>
           <h3 className="mt-3 text-primary-2 text-center opacity-90 text-xl font-medium">Inspirada no sonho de um avô visionário em Maringá.</h3> 
