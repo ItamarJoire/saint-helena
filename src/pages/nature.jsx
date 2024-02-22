@@ -49,9 +49,6 @@ export function Nature(){
             </p>
           </div>
           </Grid>
-          <img className="w-full" src={imgNature} alt="" />
     </section>
   )
 }
-
-import imgNature from '/bg-nature-page.png'
