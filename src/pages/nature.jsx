@@ -39,7 +39,7 @@ export function Nature(){
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,64L120,64C240,64,480,64,720,58.7C960,53,1200,43,1320,37.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
           <Grid>
-          <div className="mt-2 pb-20 flex gap-4 items-center">
+          <div className="mt-2 pb-8 flex gap-4 items-center">
             <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-zinc-500">
               <span className="font-bold">Incentivamos</span> nossos alunos a
@@ -49,6 +49,9 @@ export function Nature(){
             </p>
           </div>
           </Grid>
+          <img src={imgNature} alt="" />
     </section>
   )
 }
+
+import imgNature from '/bg.jpg'
