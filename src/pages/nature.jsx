@@ -20,11 +20,11 @@ export function Nature(){
           
       </Grid>
       
-      <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="mt-10 mx-3 grid grid-cols-2 md:grid-cols-4 gap-4">
             {
               ImgsChildrensNature.map((img) => (
-                <div className="shadow-xl flex items-center mx-auto justify-center rounded-full bg-[#44A930] opacity-90 h-[168px] w-[168px] overflow-hidden">
-                <div className="bg-contain rounded-full h-40 w-40 overflow-hidden" src>
+                <div className="shadow-xl flex items-center mx-auto justify-center rounded-full bg-[#44A930] opacity-90 h-[148px] w-[148px] overflow-hidden">
+                <div className="bg-contain rounded-full h-[140px] w-[140px] overflow-hidden" src>
                   <img className="size-40" src={img.src}  alt={img.alt} />
                 </div>
             </div>
