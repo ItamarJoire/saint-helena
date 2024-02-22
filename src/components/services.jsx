@@ -3,8 +3,6 @@ import { Link } from "react-router-dom"
 import { Grid } from "../containers"
 import { Carousel } from "./carousel"
 
-import { ButtonGradient } from '../components';
-
 export function Services(){
   return(
     <div className="bg-hero-pattern-nature bg-cover bg-no-repeat pb-72">
@@ -18,7 +16,9 @@ export function Services(){
           <Carousel />
 
           <Link to='/contato-com-a-natureza'>
-            <ButtonGradient name='Saiba mais' from='secondary-yellow' to='secondary-yellow-dark' mt='8'/>
+          <button className="font-['Bungee'] mt-8 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+      Saiba mais
+    </button>
           </Link>
         </Grid>
       </section>

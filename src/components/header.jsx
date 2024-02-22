@@ -6,8 +6,6 @@ import { Link } from "react-scroll";
 
 import Logo from '../assets/logo-white.svg'
 
-import { ButtonGradient } from '../components';
-
 export function Header(){
   const [navbar, setNavbar] = useState(false);
 
@@ -41,7 +39,9 @@ export function Header(){
                   <Link to="faq" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
                   </li>
                   <li className="flex gap-3 text-center">
-                  <ButtonGradient name='Entre em contato' from='secondary-yellow' to='secondary-yellow-dark'/>
+                    <button className="font-['Bungee'] text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+                      Entre em contato
+                    </button>
                   </li>
                   <li className="flex gap-3 text-center">
                     <a className="text-primary-2" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="size-7"/></a>

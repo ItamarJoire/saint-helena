@@ -1,5 +1,3 @@
-export { ButtonGradient } from './buttonGradient'
-
 export { Header } from './header'
 export { Hero } from './hero'
 export { Footer } from './footer'
