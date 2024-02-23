@@ -9,8 +9,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/bg-hero.jpg')",
-        'hero-pattern-nature': "url('/bg-nature.jpg')",
-        'hero-pattern-nature-texture': "url('/bg-texture.png')"
+        'hero-pattern-texture': "url('/bg-texture.png')"
       },
       colors: {
         primary: '#004E92',

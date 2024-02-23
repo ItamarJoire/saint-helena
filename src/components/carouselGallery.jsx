@@ -13,7 +13,7 @@ import { Imgs } from '../lib/imgs';
 // import required modules
 import { EffectCards } from 'swiper/modules';
 
-export default function CarouselTest() {
+export function CarouselGallery() {
   return (
     <>
       <Swiper
