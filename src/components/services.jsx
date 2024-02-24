@@ -18,21 +18,21 @@ export function Services(){
               <h3 className="font-['Bungee'] text-gray-400 text-2xl text-center font-extrabold tracking-widest">Baseada em 3 pilares</h3>
             </div>
 
-            <div className="mt-6 mx-3 bg-secondary-yellow  p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
+            <div className="mt-6 mx-3 border-4 border-secondary-yellow  p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
               <div className="flex items-center leading-6">
-                <h6 className="font-['Bungee'] tracking-widest text-white text-xl font-bold ml-2 text-center lg:text-xl">Afetividade</h6>
+                <h6 className="font-['Bungee'] tracking-widest text-secondary-yellow text-xl font-bold ml-2 text-center lg:text-xl">Afetividade</h6>
               </div>
             </div>
 
-            <div className="mt-6 mx-3 bg-secondary-yellow p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
+            <div className="mt-6 mx-3 border-4 border-primary p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
               <div className="flex items-center leading-6">
-                <h6 className="font-['Bungee'] tracking-widest text-white text-xl font-bold ml-2 text-center lg:text-xl">Desenvolvimento cognitivo</h6>
+                <h6 className="font-['Bungee'] tracking-widest text-primary text-xl font-bold ml-2 text-center lg:text-xl">Desenvolvimento cognitivo</h6>
               </div>
             </div>
 
-            <div className="mt-6 mx-3 bg-secondary-yellow p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
+            <div className="mt-6 mx-3 border-4 border-[#44A930] p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
               <div className="flex items-center leading-6">
-                <h6 className="font-['Bungee'] tracking-widest text-white text-xl font-bold ml-2 text-center lg:text-xl">O brincar</h6>
+                <h6 className="font-['Bungee'] tracking-widest text-[#44A930] text-xl font-bold ml-2 text-center lg:text-xl">O brincar</h6>
               </div>
             </div>
           </div>
@@ -77,9 +77,9 @@ export function Services(){
               <CarouselGallery />
             </div>
 
-            <Link to='/contato-com-a-natureza'>
+            <Link to='/educacao-infantil'>
               <button className="font-['Bungee'] mt-10 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
-                Entre em contato
+                Saiba mais
               </button>
             </Link>
           </Grid>

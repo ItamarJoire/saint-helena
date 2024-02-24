@@ -2,9 +2,10 @@ import { Grid } from "../containers";
 
 import { ImgsChildrensNature } from "../lib/imgs";
 
-export function Nature(){
+export function ChildEducation(){
   return(
     <section className="mt-20 pt-6 h-auto bg-[#EDEDEF]">
+      <p className="text-red-600 font-bold">FALAR SOBRE A EDUCAÇÃO INFANTIL</p>
       <Grid>
         <div className="mb-20">
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">O contato das crianças com a <span className="text-[#44A930]">natureza</span></h1>
@@ -55,4 +56,3 @@ export function Nature(){
     </section>
   )
 }
-

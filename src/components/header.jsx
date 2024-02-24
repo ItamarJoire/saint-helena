@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
 
-import { Link } from "react-scroll"; 
+import { Link } from "react-router-dom"; 
 
 import Logo from '../assets/logo-white.svg'
 
@@ -30,13 +30,13 @@ export function Header(){
               <div className={`flex-1  justify-self-center block pt-6 pl-6 md:mt-0 transition-all duration-300 ease-in ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="font-['Bungee'] font-normal tracking-widest flex flex-col gap-6  items-center">
                   <li className="text-xl text-primary-2 text-center ">
-                    <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={() => setNavbar(!navbar)}>Sobre</Link>
+                    <Link to="/sobre" onClick={() => setNavbar(!navbar)}>Sobre</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
-                  <Link to="services" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>Estrutura</Link>
+                  <Link to="/estrutura-salvador" onClick={() => setNavbar(!navbar)}>Estrutura Salvador</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
-                  <Link to="faq" spy={true} smooth={true} offset={-10} duration={500} onClick={() => setNavbar(!navbar)}>FAQ</Link>
+                  <Link to="/educacao-infantil" onClick={() => setNavbar(!navbar)}>Educação infantil</Link>
                   </li>
                   <li className="flex gap-3 text-center">
                     <button className="font-['Bungee'] text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
@@ -58,9 +58,9 @@ export function Header(){
       <a href="/"><img src={Logo} width={80} height={80} alt="" /></a>
 
         <ul className="flex gap-8 max-md:flex-col">
-        <Link to="about" spy={true} smooth={true} offset={0} duration={500} className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Sobre</li></Link>
-        <Link to="services" spy={true} smooth={true} offset={0} duration={500} className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Serviços</li></Link>
-        <Link to="faq" spy={true} smooth={true} offset={0} duration={500} className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>FAQ</li></Link>
+        <Link to="/sobre" className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Sobre</li></Link>
+        <Link to="/estrutura-salvador" className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Estrutura Salvador</li></Link>
+        <Link to="/educacao-infantil" className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Educação infantil</li></Link>
         </ul>
         
         <div className="hidden lg:flex lg:gap-3">
