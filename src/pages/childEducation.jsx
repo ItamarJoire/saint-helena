@@ -8,9 +8,9 @@ import { ChildrenCard } from "../components";
 
 
 export function ChildEducation(){
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return(
     <section className="mt-20 pt-6 h-auto bg-[#EDEDEF]">
