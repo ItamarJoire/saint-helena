@@ -38,15 +38,18 @@ export function Header(){
                   <li className="text-xl text-primary-2 text-center">
                   <Link to="/educacao-infantil" onClick={() => setNavbar(!navbar)}>Educação infantil</Link>
                   </li>
-                  <li className="flex gap-3 text-center">
+                  <li className="pb-2 flex gap-3 text-center">
                     <button className="font-['Bungee'] text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
                       Entre em contato
                     </button>
                   </li>
-                  <li className="flex gap-3 text-center">
-                    <a className="text-primary-2" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="size-7"/></a>
-                    <a className="text-primary-2" href="https://www.instagram.com/dinah.decor/" target="_blank" onClick={() => setNavbar(!navbar)}><FaInstagram className="size-7"/></a>
+                  
+                  
+                  <li className="text-xl text-primary-2 text-center">
+                  <div className="pt-6 border-t-[1px] border-[#CDCDCD]"></div>
+                  <a href="https://sainthelena.com.br/" target="_blank" onClick={() => setNavbar(!navbar)}>Conheça nossa <span className="text-secondary-yellow">matriz</span></a>
                   </li>
+
                 </ul>
               </div>
             </div>
