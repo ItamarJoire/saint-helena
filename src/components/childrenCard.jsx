@@ -11,7 +11,7 @@ import { Grid } from '../containers'
 export function ChildrenCard(){
   return(
     <div>
-      <div className="pb-10">
+      <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Toodlers</h1>
@@ -78,7 +78,7 @@ export function ChildrenCard(){
           </Grid>
       </div>
 
-      <div className="pb-10">
+      <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Nursery</h1>
@@ -145,7 +145,7 @@ export function ChildrenCard(){
           </Grid>
       </div>
 
-      <div className="pb-10">
+      <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Tiny Tots</h1>
@@ -220,7 +220,7 @@ export function ChildrenCard(){
           </Grid>
       </div>
 
-      <div className="pb-10">
+      <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Pré-kindergarten</h1>
@@ -301,7 +301,7 @@ export function ChildrenCard(){
           </Grid>
       </div>
 
-      <div className="pb-10">
+      <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Kindergarten</h1>

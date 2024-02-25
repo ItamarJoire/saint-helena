@@ -5,16 +5,14 @@ import { Grid } from "../containers";
 import { ImgsChildrensNature } from "../lib/imgs";
 import { ChildrenCard } from "../components";
 
-
-
 export function ChildEducation(){
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
 
   return(
-    <section className="mt-20 pt-6 h-auto bg-[#EDEDEF]">
-      <div className="pb-8">
+    <section className="mt-14 pt-6 h-auto bg-[#EDEDEF]">
+      <div className="pb-2">
         <Grid>
           <div>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
@@ -28,13 +26,10 @@ export function ChildEducation(){
           </div>
           </Grid>
       </div>
-
       
       <ChildrenCard />
      
-     
       <Grid>
-     
         <div className="mb-20">
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">O contato das crianças com a <span className="text-[#44A930]">natureza</span></h1>
           <p className="mt-4 text-center text-xl text-gray-400 ">
@@ -53,8 +48,8 @@ export function ChildEducation(){
         <div class="bg-hero-pattern-texture pb-32 bg-cover mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
           {
             ImgsChildrensNature.map((img) => (
-              <div className="shadow-xl flex items-center mx-auto justify-center rounded-full bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
-              <div className="bg-contain rounded-full h-[140px] w-[140px] overflow-hidden" src>
+              <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
+              <div className="bg-contain rounded-md h-[140px] w-[140px] overflow-hidden" src>
                 <img className="size-[140px]" src={img.src}  alt={img.alt} />
               </div>
           </div>

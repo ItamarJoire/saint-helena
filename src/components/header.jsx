@@ -33,7 +33,7 @@ export function Header(){
                     <Link to="/sobre" onClick={() => setNavbar(!navbar)}>Sobre</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
-                  <Link to="/estrutura-salvador" onClick={() => setNavbar(!navbar)}>Estrutura Salvador</Link>
+                  <Link to="/estrutura-salvador" onClick={() => setNavbar(!navbar)}>Nossa estrutura</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
                   <Link to="/educacao-infantil" onClick={() => setNavbar(!navbar)}>Educação infantil</Link>

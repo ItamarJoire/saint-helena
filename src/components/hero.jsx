@@ -10,7 +10,7 @@ export function Hero() {
       <section className="pt-20 flex items-center justify-center w-full bg-hero-pattern bg-no-repeat bg-center bg-cover md:justify-start md:pt-0 md:h-[40vh] lg:h-[100vh]">
         <div className="m-4 text-center px-4 py-8 rounded-xl sm:max-w-[60%] lg:max-w-[40%] lg:mx-0 lg:ml-16 lg:px-8">
           <div>
-            <img className='size-60 opacity-90' src={LogoContainer} alt="" />
+            <img className='size-60 opacity-90 ' src={LogoContainer} alt="" />
           </div>
         </div>   
       </section>

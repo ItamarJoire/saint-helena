@@ -73,12 +73,12 @@ export function Services(){
           <Grid>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
-            <div className="mt-4">
+            <div className="mt-8">
               <CarouselGallery />
             </div>
 
             <Link to='/educacao-infantil'>
-              <button className="font-['Bungee'] mt-10 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+              <button className="font-['Bungee'] mt-10 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white hover:opacity-90 duration-200">
                 Saiba mais
               </button>
             </Link>
