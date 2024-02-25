@@ -6,9 +6,9 @@ import { ImgsChildrensNature } from "../lib/imgs";
 import { ChildrenCard } from "../components";
 
 export function ChildEducation(){
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
 
   return(
     <section className="mt-14 pt-6 h-auto bg-[#EDEDEF]">
@@ -45,7 +45,7 @@ export function ChildEducation(){
       <div className="bg-[#44a930] pt-2">
         
         <h1 className="font-['Bungee'] text-white text-center text-2xl">Galeria</h1>
-        <div class="bg-hero-pattern-texture pb-32 bg-cover mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-hero-pattern-texture pb-32 bg-cover mt-10 grid grid-cols-2 md:grid-cols-4 gap-6 mx-8">
           {
             ImgsChildrensNature.map((img) => (
               <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
@@ -65,10 +65,7 @@ export function ChildEducation(){
           <div className="mt-0 pb-24 flex gap-4 items-center">
             <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-gray-400">
-              <span className="font-bold">Incentivamos</span> nossos alunos a
-              cuidarem dos recursos naturais,
-              ensinando-os a plantar, cuidar
-              e admirar as plantas.
+              <span className="font-bold">Incentivamos</span> nossos alunos a cuidarem dos recursos naturais, ensinando-os a plantar, cuidar e admirar as plantas.
             </p>
           </div>
         </Grid>
