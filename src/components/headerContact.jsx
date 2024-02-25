@@ -1,6 +1,6 @@
 import IconInstagram from '../assets/insta.svg'
-import IconWhatsApp from '../assets/whats.svg'
 import IconFacebook from '../assets/face.svg'
+
 export function HeaderContact(){
   return(
     <section className="bg-secondary-yellow h-10 flex flex-row justify-between w-full px-8">
