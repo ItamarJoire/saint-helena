@@ -6,6 +6,10 @@ body{
   font-family: "Montserrat", sans-serif;
 }
 
+.border-mask{
+  border-radius: 40% 47% 24px 24px / 30% 56% 24px 24px
+}
+
 .swiper-button-next,
 .swiper-button-prev {
     background-color: #fff; 

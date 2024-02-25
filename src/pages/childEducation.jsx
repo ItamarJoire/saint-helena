@@ -1,12 +1,40 @@
+import { useEffect } from "react";
+
 import { Grid } from "../containers";
 
 import { ImgsChildrensNature } from "../lib/imgs";
+import { ChildrenCard } from "../components";
+
+
 
 export function ChildEducation(){
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
+
   return(
     <section className="mt-20 pt-6 h-auto bg-[#EDEDEF]">
-      <p className="text-red-600 font-bold">FALAR SOBRE A EDUCAÇÃO INFANTIL</p>
+      <div className="pb-8">
+        <Grid>
+          <div>
+            <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
+
+            <p className="mt-4 text-center text-xl text-gray-400 ">
+              Na Saint Helena, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma professora musicista, com mais de 30 anos de experiência em educação musical, que ministra aulas de inicialização musical, e também um educador físico que trabalha o desenvolvimento psicomotor com as crianças. 
+              <br />
+              <br />
+              Além disso, em todas as turmas há a presença da professora regente de um dos idiomas mais a professora auxiliar que, inclusive, acompanha os alunos nas aulas de música e desenvolvimento motor.
+            </p>
+          </div>
+          </Grid>
+      </div>
+
+      
+      <ChildrenCard />
+     
+     
       <Grid>
+     
         <div className="mb-20">
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">O contato das crianças com a <span className="text-[#44A930]">natureza</span></h1>
           <p className="mt-4 text-center text-xl text-gray-400 ">
@@ -15,10 +43,7 @@ export function ChildEducation(){
             <br />
             Plantar árvores colabora para um mundo melhor, combatendo o aquecimento global e melhorando a qualidade de vide de todos nós.
           </p>
-        </div>
-       
-        
-          
+        </div>   
       </Grid>
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,128L120,128C240,128,480,128,720,112C960,96,1200,64,1320,48L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>

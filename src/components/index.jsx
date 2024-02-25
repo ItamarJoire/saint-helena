@@ -7,3 +7,4 @@ export { Carousel } from './carousel'
 export { Highlights } from './highlights'
 
 export { CarouselGallery } from './carouselGallery'
+export { ChildrenCard } from './childrenCard'
