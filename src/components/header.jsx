@@ -11,8 +11,8 @@ export function Header(){
 
   return(
     <section>
-      <div className='relative z-10 md:hidden'>
-        <nav className='absolute z-20 bg-primary w-full drop-shadow-md'>
+      <div className='relative z-10 lg:hidden '>
+        <nav className='absolute z-20 bg-primary w-full drop-shadow-md sm:px-16'>
           <div className="justify-between mx-auto md:items-center md:flex md:px-8 lg:max-w-7xl">
               <div className="flex items-center justify-between py-4 md:block md:py-5">
                 <div className="flex w-full px-6 items-center justify-between">
@@ -60,17 +60,14 @@ export function Header(){
       <header className={`drop-shadow-md max-md:hidden flex px-6 h-[84px] items-center justify-around ${navbar ? 'hidden' : 'max-md:h-[60vh] max-md:flex-col max-md:gap-1 max-md:items-start max-md:justify-start bg-primary max-md:w-full'}`}>
       <a href="/"><img src={Logo} width={80} height={80} alt="" /></a>
 
-        <ul className="flex gap-8 max-md:flex-col">
-        <Link to="/sobre" className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Sobre</li></Link>
-        <Link to="/estrutura-salvador" className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Estrutura Salvador</li></Link>
-        <Link to="/educacao-infantil" className="text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer"><li>Educação infantil</li></Link>
+        <ul className="flex gap-8 max-md:flex-col items-center">
+        <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li>Sobre</li></Link>
+        <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li>Estrutura</li></Link>
+        <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li>Infantil</li></Link>
+        <a href="#" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+          Contato
+        </button></li></a>
         </ul>
-        
-        <div className="hidden lg:flex lg:gap-3">
-          <a className="text-white cursor-pointer" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" onClick={() => setNavbar(!navbar)}><FaWhatsapp className="w-6 h-6"/></a>
-          <a className="text-white cursor-pointer" href="https://www.instagram.com/dinah.decor/" target="_blank" onClick={() => setNavbar(!navbar)}><FaInstagram className="w-6 h-6"/></a>
-          
-        </div>
       </header>
   </section>
   )

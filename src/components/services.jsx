@@ -10,15 +10,16 @@ import { CarouselGallery } from "../components"
 export function Services(){
   return(
     <div className="bg-[#EDEDEF]">
-      <section className="pb-12">
+      <section className="pb-12 lg:pb-0 ">
         <Grid>
-          <div>
+          <div >
             <div className="text-center">
               <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Educação infantil</h1>
               <h3 className="font-['Bungee'] text-gray-400 text-2xl text-center font-extrabold tracking-widest">Baseada em 3 pilares</h3>
             </div>
 
-            <div className="mt-6 mx-3 border-4 border-secondary-yellow  p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
+            <div className="lg:flex lg:gap-4 lg:mt-8 lg:justify-center ">
+            <div className="mt-6 mx-3 border-4 border-secondary-yellow p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
               <div className="flex items-center leading-6">
                 <h6 className="font-['Bungee'] tracking-widest text-secondary-yellow text-xl font-bold ml-2 text-center lg:text-xl">Afetividade</h6>
               </div>
@@ -35,6 +36,7 @@ export function Services(){
                 <h6 className="font-['Bungee'] tracking-widest text-[#44A930] text-xl font-bold ml-2 text-center lg:text-xl">O brincar</h6>
               </div>
             </div>
+          </div>
           </div>
         </Grid>
       </section>
@@ -68,7 +70,7 @@ export function Services(){
         </div>
       </section>
 
-      <section  id="services" className="pb-20 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
+      <section  id="services" className="pb-20 pt-20 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
         <div>
           <Grid>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>

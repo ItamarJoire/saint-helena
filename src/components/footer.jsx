@@ -7,30 +7,34 @@ import Logo from '../assets/logo-white.svg'
 
 export function Footer(){
   return(
-    <section className="bg-primary pt-2 text-center">
+    <section className="bg-primary pt-4 lg:pt-20 text-left">
       <Grid>
-        <div className='md:flex md:flex-row-reverse md:justify-end md:items-center md:gap-12'> 
-          <div className="flex flex-col gap-10 justify-center items-center">
-            {/* <div>
-              <ul className="grid gap-2">
-                <li className="text-white text-base font-normal"><a href="/">Sobre</a></li>
-                <li className="text-white text-base font-normal"><a href="/">Nossa Estrutura</a></li>
-                <li className="text-white text-base font-normal"><a href="/">Educação infantil</a></li>
-                <li className="text-white text-base font-normal"><a href="/">FAQ</a></li>
-              </ul>
-            </div> */}
-            <a href="/"><img src={Logo} alt="" width={70} height={70}/></a>
-            <div className='flex flex-col gap-2 items-center'>
-              <MdPlace className='text-secondary-yellow size-5 w-8'/>
-              <p className="text-white text-base font-normal">Rua Estácio Gonzaga, nº 107 <br /> Horto Floresta <br /> Esquina Dep. Fernando Wilsom Magalhães</p>
+        <div> 
+          <div className="flex flex-col gap-8 sm:gap-0 sm:grid sm:grid-cols-2 sm:text-left sm:items-end lg:flex lg:flex-row lg:gap-40">
+            <div className='flex flex-col gap-8'>
+              <a href="/"><img src={Logo} alt="" width={70} height={70}/></a>
+              <div>
+                <ul className="grid gap-2">
+                  <li className="text-white text-base font-normal"><a href="/">Sobre</a></li>
+                  <li className="text-white text-base font-normal"><a href="/">Nossa Estrutura</a></li>
+                  <li className="text-white text-base font-normal"><a href="/">Educação infantil</a></li>
+                  <li className="text-secondary-yellow text-base font-normal"><a href="/">Entre em contato</a></li>
+                  
+  
+                  <li className="text-white text-base font-normal"><a href="https://sainthelena.com.br/">Conheça nossa <span className='text-secondary-yellow'>matriz</span></a></li>
+                </ul>
+              </div>
             </div>
-
-            <div className='flex flex-col gap-2 items-center'>
-              <FaClock className='text-secondary-yellow size-4 w-8'/>
-              <p className="text-white text-base font-normal">Estamos abertos de <span className='font-bold'>segunda</span> a <span className=' font-bold'>sexta</span> das 07:30h às 18:00h</p>
-            </div>
-
             
+            <div className='flex flex-col gap-8 '>
+              <div className='flex gap-2 '>
+                <p className="text-white text-base font-normal lg:max-w-[400px]">Rua Estácio Gonzaga, nº 107 Horto - Floresta Esquina Dep. Fernando Wilsom Magalhães</p>
+              </div>
+
+              <div className='flex flex-col gap-2 '>
+                <p className="text-white text-base font-normal lg:max-w-[400px]">Estamos abertos de <span className='font-bold'>segunda</span> a <span className=' font-bold'>sexta</span> das 07:30h às 18:00h</p>
+              </div>
+            </div>
           </div>
         
           <div className='mt-8 border-t-[1px] border-[#CDCDCD] border-opacity-30 rounded'></div>
