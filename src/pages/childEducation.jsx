@@ -11,13 +11,13 @@ export function ChildEducation(){
   // }, [])
 
   return(
-    <section className="mt-14 pt-6 h-auto bg-[#EDEDEF]">
+    <section className="pt-6 h-auto bg-[#EDEDEF] lg:">
       <div className="pb-2">
         <Grid>
           <div>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
 
-            <p className="mt-4 text-center text-xl text-gray-400 ">
+            <p className="mt-6 text-center text-xl text-gray-400 ">
               Na Saint Helena, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma professora musicista, com mais de 30 anos de experiência em educação musical, que ministra aulas de inicialização musical, e também um educador físico que trabalha o desenvolvimento psicomotor com as crianças. 
               <br />
               <br />
@@ -45,7 +45,7 @@ export function ChildEducation(){
       <div className="bg-[#44a930] pt-2">
         
         <h1 className="font-['Bungee'] text-white text-center text-2xl">Galeria</h1>
-        <div class="bg-hero-pattern-texture pb-32 bg-cover mt-10 grid grid-cols-2 md:grid-cols-4 gap-6 mx-8">
+        <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 mx-8 lg:grid-cols-5">
           {
             ImgsChildrensNature.map((img) => (
               <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
@@ -62,7 +62,7 @@ export function ChildEducation(){
       <section>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,64L120,64C240,64,480,64,720,58.7C960,53,1200,43,1320,37.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
         <Grid>
-          <div className="mt-0 pb-24 flex gap-4 items-center">
+          <div className="mt-0 pb-32 flex gap-4 items-center">
             <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-gray-400">
               <span className="font-bold">Incentivamos</span> nossos alunos a cuidarem dos recursos naturais, ensinando-os a plantar, cuidar e admirar as plantas.

@@ -10,7 +10,7 @@ import { Grid } from '../containers'
 
 export function ChildrenCard(){
   return(
-    <div>
+    <div className=''>
       <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
