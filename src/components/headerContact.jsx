@@ -3,7 +3,7 @@ import IconWhatsApp from '../assets/whats.svg'
 import IconFacebook from '../assets/face.svg'
 export function HeaderContact(){
   return(
-    <section className="bg-secondary-yellow h-10 flex flex-row justify-between px-8">
+    <section className="bg-secondary-yellow h-10 flex flex-row justify-between w-full px-8">
       <div className='flex items-center'>
         <h2 className='font-["Bungee"] text-primary-2 text-sm'>Pólo <span className=''>Salvador</span></h2>
       </div>

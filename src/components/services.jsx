@@ -68,7 +68,7 @@ export function Services(){
         </div>
       </section>
 
-      <section  id="services" className="pb-20 bg-[url('/bg-gallery.jpg')] bg-cover h-auto text-center">
+      <section  id="services" className="pb-20 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
         <div>
           <Grid>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
