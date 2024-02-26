@@ -55,14 +55,14 @@ export function Carousel(){
   }, [navigationEnabled]);
 
   return (
-    <div className='carouselContainer mySwiper my-12 mx-3 md:mx-2 lg:mx-20'>
+    <div className='carouselContainer mySwiper my-12 mx-2 md:mx-2 lg:mx-20'>
       <Swiper
         style={{
           '--swiper-navigation-size': '24px',
           '--swiper-navigation-top-offset': '50%',
           '--swiper-navigation-sides-offset': '16px',
           
-          '--swiper-pagination-color': '#004F93',
+          '--swiper-pagination-color': '#F6B115',
           
         }}
 
@@ -85,8 +85,8 @@ export function Carousel(){
         { 
           Imgs.map((img, index) => (
             <SwiperSlide key={index}>
-              <div className='carouselScrollImg'>
-                <img className='w-full h-[300px] rounded-2xl sm:w-[500px] ' src={img.src} alt={img.alt} />
+              <div className='carouselScrollImg border-4 rounded-xl border-primary-2'>
+                <img className='w-full h-[400px] object-cover rounded-xl sm:w-[500px] ' src={img.src} alt={img.alt} />
               </div>
             </SwiperSlide>
           ))
