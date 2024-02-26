@@ -11,7 +11,7 @@ export function ChildEducation(){
   // }, [])
 
   return(
-    <section className="pt-6 h-auto bg-[#EDEDEF] lg:">
+    <section className="pt-3 h-auto bg-[#EDEDEF] lg:">
       <div className="pb-2">
         <Grid>
           <div>
@@ -29,38 +29,38 @@ export function ChildEducation(){
       
       <ChildrenCard />
      
-      <Grid>
-        <div className="mb-20">
-          <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">O contato das crianças com a <span className="text-[#44A930]">natureza</span></h1>
-          <p className="mt-4 text-center text-xl text-gray-400 ">
-            É extremamente importante que as crianças entrem em contato com a natureza, pois melhora a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
-            <br />
-            <br />
-            Plantar árvores colabora para um mundo melhor, combatendo o aquecimento global e melhorando a qualidade de vide de todos nós.
-          </p>
-        </div>   
-      </Grid>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,128L120,128C240,128,480,128,720,112C960,96,1200,64,1320,48L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-      <div className="bg-[#44a930] pt-2">
-        
-        <h1 className="font-['Bungee'] text-white text-center text-2xl">Galeria</h1>
-        <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 mx-8 lg:grid-cols-5">
-          {
-            ImgsChildrensNature.map((img) => (
-              <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
-              <div className="bg-contain rounded-md h-[140px] w-[140px] overflow-hidden" src>
-                <img className="size-[140px]" src={img.src}  alt={img.alt} />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44A930" fill-opacity="1" d="M0,224L120,234.7C240,245,480,267,720,266.7C960,267,1200,245,1320,234.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+      <div className="bg-[#44A930]">
+        <Grid>
+          <div className="">
+            <h1 className="font-['Bungee'] text-secondary-yellow text-2xl text-center font-extrabold tracking-widest">O contato das crianças <span className="text-white">com a natureza</span></h1>
+            <p className="mt-4 text-center text-xl text-white ">
+              É extremamente importante que as crianças entrem em contato com a natureza, pois melhora a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
+              <br />
+              <br />
+              Plantar árvores colabora para um mundo melhor, combatendo o aquecimento global e melhorando a qualidade de vide de todos nós.
+            </p>
+            
+            <div className="bg-[#44a930] pt-12">
+              <h1 className="font-['Bungee'] text-secondary-yellow text-center text-2xl">Galeria</h1>
+              <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 mx-8 lg:grid-cols-5">
+                {
+                  ImgsChildrensNature.map((img) => (
+                    <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
+                    <div className="bg-contain rounded-md h-[140px] w-[140px] overflow-hidden" src>
+                      <img className="size-[140px]" src={img.src}  alt={img.alt} />
+                    </div>
+                </div>
+                  ))
+                }
               </div>
-          </div>
-            ))
-          }
-       
-        </div>
+            </div>
+          </div>   
+        </Grid>
       </div>
-      
+  
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,64L120,53.3C240,43,480,21,720,26.7C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
       <section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,64L120,64C240,64,480,64,720,58.7C960,53,1200,43,1320,37.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
         <Grid>
           <div className="mt-0 pb-32 flex gap-4 items-center">
             <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>

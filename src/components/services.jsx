@@ -42,7 +42,8 @@ export function Services(){
       </section>
 
       <section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#004E92" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,197.3C640,192,800,160,960,170.7C1120,181,1280,235,1360,261.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#004E92" fill-opacity="1" d="M0,224L120,234.7C240,245,480,267,720,266.7C960,267,1200,245,1320,234.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
         <div className="bg-primary pb-16">
           <Grid>
             
@@ -70,7 +71,8 @@ export function Services(){
         </div>
       </section>
 
-      <section  id="services" className="pb-20 pt-20 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
+      <section  id="services" className="pb-20 pt-10 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
+        
         <div>
           <Grid>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
@@ -86,7 +88,9 @@ export function Services(){
             </Link>
           </Grid>
         </div>
+        
       </section>
+      
 
     </div>
   )
