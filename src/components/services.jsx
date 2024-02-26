@@ -10,6 +10,7 @@ import { CarouselGallery } from "../components"
 export function Services(){
   return(
     <div className="bg-[#EDEDEF]">
+      
       <section className="pb-12 lg:pb-0 ">
         <Grid>
           <div >

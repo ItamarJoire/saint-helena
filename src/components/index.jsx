@@ -5,6 +5,7 @@ export { Services } from './services'
 export { HeaderContact } from './headerContact'
 export { Carousel } from './carousel'
 export { Highlights } from './highlights'
+export { Excellence } from './excellence'
 
 export { CarouselGallery } from './carouselGallery'
 export { ChildrenCard } from './childrenCard'

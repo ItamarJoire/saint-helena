@@ -1,6 +1,7 @@
 export function Highlights(){
   return(
     <section  className="highContainer bg-white px-3 py-12 rounded-xl  mt-[-70px] drop-shadow-md md:px-32 lg:px-16 lg:mx-16 lg:py-20">
+     
     <div className='items'>
     <div>
         <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Educação infantil</h1>
