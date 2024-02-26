@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import LogoContainer from '../assets/logo-container.svg'
 
 import { Grid } from '../containers'
-import { Excellence } from '../components';
 
 export function Hero() {
   return (
