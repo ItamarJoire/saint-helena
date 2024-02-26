@@ -55,7 +55,7 @@ export function Carousel(){
   }, [navigationEnabled]);
 
   return (
-    <div className='carouselContainer mySwiper my-12 mx-2 md:mx-2 lg:mx-20'>
+    <div className='carouselContainer mySwiper my-12 mx-2 lg:mx-20'>
       <Swiper
         style={{
           '--swiper-navigation-size': '24px',
