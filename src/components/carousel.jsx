@@ -12,7 +12,7 @@ import { Imgs } from '../lib/imgs'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import './style.css'
+import './carousel.css'
 
 export function Carousel(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
