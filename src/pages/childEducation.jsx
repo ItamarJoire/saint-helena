@@ -43,7 +43,7 @@ export function ChildEducation(){
             
             <div className="bg-[#44a930] pt-12">
               <h1 className="font-['Bungee'] text-secondary-yellow text-center text-2xl">Galeria</h1>
-              <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 mx-8 lg:grid-cols-5">
+              <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 sm:grid-cols-3 gap-6 mx-8 lg:grid-cols-5">
                 {
                   ImgsChildrensNature.map((img) => (
                     <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[148px] overflow-hidden">
