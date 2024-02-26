@@ -27,7 +27,7 @@ export function StructureSalvador(){
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F6B115" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,720,170.7C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
         <div className="bg-secondary-yellow pb-8">
           <Grid>
-            <p className="mt-4 text-center text-xl text-white sm:mx-16">
+            <p className="mt-4 text-center text-xl text-white ">
             A <strong>Saint Helena</strong> possui salas de aula com duas entradas em cada uma delas para favorecer o intercâmbio entre os ambientes. Isso potencializa as relações entre as crianças, as descobertas que acontecem por meio da exploração dos espaços bem como a autonomia. 
             <br />
             <br />

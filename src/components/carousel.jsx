@@ -86,7 +86,7 @@ export function Carousel(){
           Imgs.map((img, index) => (
             <SwiperSlide key={index}>
               <div className='carouselScrollImg border-4 rounded-xl border-primary-2'>
-                <img className='w-full h-[400px] object-cover rounded-xl sm:w-[500px] ' src={img.src} alt={img.alt} />
+                <img className='w-full h-[400px] object-cover rounded-lg sm:w-[500px] ' src={img.src} alt={img.alt} />
               </div>
             </SwiperSlide>
           ))

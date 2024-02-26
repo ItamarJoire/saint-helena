@@ -82,7 +82,7 @@ export function Services(){
             </div>
 
             <Link to='/educacao-infantil'>
-              <button className="font-['Bungee'] mt-10 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white hover:opacity-90 duration-200">
+              <button className="font-['Bungee'] mt-16 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-primary text-white hover:opacity-90 duration-200">
                 Saiba mais
               </button>
             </Link>

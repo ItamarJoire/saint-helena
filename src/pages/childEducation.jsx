@@ -62,13 +62,21 @@ export function ChildEducation(){
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#44a930" fill-opacity="1" d="M0,64L120,53.3C240,43,480,21,720,26.7C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
       <section>
         <Grid>
-          <div className="mt-0 pb-32 flex gap-4 items-center">
-            <div className="inline-block rounded-lg h-40 w-4 bg-secondary-yellow"></div>
+          <div className="mt-0 pb-16 flex gap-4 items-center">
+            <div className="inline-block rounded-lg h-40 w-3 bg-secondary-yellow"></div>
             <p className="max-w-[312px] text-xl text-gray-400">
               <span className="font-bold">Incentivamos</span> nossos alunos a cuidarem dos recursos naturais, ensinando-os a plantar, cuidar e admirar as plantas.
             </p>
           </div>
         </Grid>
+
+        <div className="flex justify-center pb-16">
+          <a href="">
+            <button className="font-['Bungee']  text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-[#44a930] text-white hover:opacity-90 duration-200">
+              Entre em contato
+            </button>
+          </a>
+        </div>
       </section>
     </section>
   )
