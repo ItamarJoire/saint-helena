@@ -10,7 +10,7 @@
 
 body{
   font-family: "Montserrat", sans-serif;
-   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .border-mask{
@@ -20,7 +20,7 @@ body{
 .swiper-button-next,
 .swiper-button-prev {
     background-color: #fff; 
-    color: #F6B115; 
+    color: #004E92; 
     border-radius: 50%; 
     width: 40px;
     height: 40px; 

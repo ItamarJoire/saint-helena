@@ -3,17 +3,20 @@ import { Link } from 'react-router-dom'
 import LogoContainer from '../assets/logo-container.svg'
 
 import { Grid } from '../containers'
+import { CarouselFade } from './carouselFade';
 
 export function Hero() {
   return (
     <section>
       <div>
-        <section className="pt-3 flex items-center justify-center w-full bg-hero-pattern bg-no-repeat bg-center bg-cover sm:pt-0 lg:h-[80vh]">
+        {/* <section className="pt-3 flex items-center justify-center w-full bg-hero-pattern bg-no-repeat bg-center bg-cover sm:pt-0 lg:h-[80vh]">
           <div className="m-4 text-center px-4 py-8 rounded-xl sm:max-w-[60%] ">
               <img className='size-60 opacity-90' src={LogoContainer} alt="" />
           </div>   
-        </section>
+        </section> */}
         
+        <CarouselFade />
+
         <div className='bg-primary'>
           <Grid>
             <div className='flex flex-col pb-8 items-center lg:pt-20'>
@@ -26,8 +29,6 @@ export function Hero() {
               </Link>
             </div>
           </Grid>
-
-         
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" className='bg-[#EDEDEF]' viewBox="0 0 1440 320"><path fill="#004f93" fill-opacity="1" d="M0,64L120,53.3C240,43,480,21,720,26.7C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>

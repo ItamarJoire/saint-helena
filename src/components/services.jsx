@@ -5,7 +5,7 @@ import { Grid } from "../containers"
 import Flex from '../assets/flex.svg'
 import Solutions from '../assets/solutions.svg'
 import Insight from '../assets/insight.svg'
-import { CarouselGallery } from "../components"
+import { CarouselCard } from "../components"
 
 export function Services(){
   return(
@@ -79,7 +79,7 @@ export function Services(){
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
             <div className="mt-8">
-              <CarouselGallery />
+              <CarouselCard />
             </div>
 
             <Link to='/educacao-infantil'>

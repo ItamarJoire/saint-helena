@@ -6,6 +6,7 @@ export { HeaderContact } from './headerContact'
 export { Carousel } from './carousel'
 export { Highlights } from './highlights'
 
-export { CarouselGallery } from './carouselGallery'
+export { CarouselCard } from './carouselCard'
+export { CarouselFade } from './carouselFade'
 export { ChildrenCard } from './childrenCard'
 export { Excellence } from './excellence'
