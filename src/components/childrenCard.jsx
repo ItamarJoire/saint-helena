@@ -49,7 +49,7 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white">1 aula semanal de <u>educação física</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white">1 aula semanal de <u>movimento corporal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -72,73 +72,6 @@ export function ChildrenCard(){
                 
               <div className="mt-12">
                 <img class="border-mask w-full h-80 object-cover" src={ImgCard} alt="" />
-              </div>
-            </div>
-
-          </Grid>
-      </div>
-
-      <div className="pb-2">
-          <Grid>
-            <div class=" mx-auto bg-primary rounded-3xl">
-              <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Nursery</h1>
-              
-              <div className="px-6">
-                <div className="mt-8">
-                  <h3 className="font-['Bungee'] text-secondary-yellow text-left">Matutino e vespertivo</h3>
-
-                  <div className="mt-2 flex items-center gap-3">
-                    <FaCircle className="text-secondary-yellow size-2"/>
-                    <p className="text-white">2 professores para cada sala com 12 alunos<span className="text-secondary-yellow">;</span></p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="px-6">
-                <div className="mt-8">
-                  <h3 className="font-['Bungee'] text-secondary-yellow text-left">Crianças de 2 anos</h3>
-
-                  <div className="space-y-4">
-                    <div className="mt-2 flex items-center gap-3">
-                      <FaCircle className="text-secondary-yellow size-2"/>
-                      <div>
-                        <p className="text-white">4 horas de aula na <u>língua inglesa</u><span className="text-secondary-yellow">;</span></p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-3">
-                      <FaCircle className="text-secondary-yellow size-3"/>
-                      <div>
-                        <p className="text-white">1 aula semanal de <u>musicalização infantil</u> com <u>professora especialista</u><span className="text-secondary-yellow">;</span></p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-3">
-                      <FaCircle className="text-secondary-yellow size-4"/>
-                      <div>
-                        <p className="text-white">1 aula semanal de <u>educação física</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-3">
-                      <FaCircle className="text-secondary-yellow size-4"/>
-                      <div>
-                        <p className="text-white">Aprendizado por meios de <u>brincadeiras pedagógicas</u>, desenvolvendo a psicomotricidade e a cognição<span className="text-secondary-yellow">;</span></p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-3">
-                      <FaCircle className="text-secondary-yellow size-4"/>
-                      <div>
-                        <p className="text-white">Momentos de <u>interação social</u>, para conversas sobre <u>inteligência socioemocional</u><span className="text-secondary-yellow">;</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                
-              <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgCard2} alt="" />
               </div>
             </div>
 
@@ -189,7 +122,7 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white">1 aula semanal de <u>educação física</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white">1 aula semanal de <u>movimento corporal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -223,7 +156,7 @@ export function ChildrenCard(){
       <div className="pb-2">
           <Grid>
             <div class=" mx-auto bg-primary rounded-3xl">
-              <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Pré-kindergarten</h1>
+              <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest">Pre-kindergarten</h1>
               
               <div className="px-6">
                 <div className="mt-8">
@@ -265,7 +198,7 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white">1 aula semanal de <u>educação física</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white">1 aula semanal de <u>movimento corporal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -348,7 +281,7 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white">1 aula semanal de <u>educação física</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white">1 aula semanal de <u>movimento corportal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 

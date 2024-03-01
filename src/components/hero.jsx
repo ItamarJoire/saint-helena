@@ -6,6 +6,8 @@ import { Grid } from '../containers'
 import { CarouselFade } from './carouselFade';
 
 export function Hero() {
+
+  
   return (
     <section>
       <div>
@@ -22,7 +24,7 @@ export function Hero() {
             <div className='flex flex-col pb-8 items-center lg:pt-20'>
               <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">12 anos de excelência em <span className="text-secondary-yellow">educação bilíngue</span></h1>
               <h3 className="mt-3 text-primary-2 text-center opacity-90 text-xl font-medium">Inspirada no sonho de um avô visionário em Maringá.</h3> 
-              <Link to='/sobre'> 
+              <Link to='/educacao-infantil'> 
                 <button className="font-['Bungee'] mt-8 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-white text-primary hover:opacity-90 duration-200">
                   Saiba mais
                 </button>

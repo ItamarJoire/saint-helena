@@ -6,9 +6,9 @@ import { ImgsChildrensNature } from "../lib/imgs";
 import { ChildrenCard } from "../components";
 
 export function ChildEducation(){
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return(
     <section className="pt-3 h-auto bg-[#EDEDEF] lg:">
@@ -38,7 +38,7 @@ export function ChildEducation(){
               É extremamente importante que as crianças entrem em contato com a natureza, pois melhora a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
               <br />
               <br />
-              Plantar árvores colabora para um mundo melhor, combatendo o aquecimento global e melhorando a qualidade de vide de todos nós.
+              Cuidar da natureza colabora para um mundo mehor.
             </p>
             
             <div className="bg-[#44a930] pt-12">

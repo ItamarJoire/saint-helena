@@ -13,7 +13,7 @@ export function RoutesApp() {
       <Routes>
         <Route path='*' element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<About />} />
+        {/* <Route path="/sobre" element={<About />} /> */}
         <Route path="/estrutura-salvador" element={<StructureSalvador />} />
         <Route path="/educacao-infantil" element={<ChildEducation />} />
       </Routes>

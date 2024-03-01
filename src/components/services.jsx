@@ -28,7 +28,7 @@ export function Services(){
 
             <div className="mt-6 mx-3 border-4 border-primary p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
               <div className="flex items-center leading-6">
-                <h6 className="font-['Bungee'] tracking-widest text-primary text-xl font-bold ml-2 text-center lg:text-xl">Desenvolvimento cognitivo</h6>
+                <h6 className="font-['Bungee'] tracking-widest text-primary text-xl font-bold ml-2 text-center lg:text-xl">Desenvolvimento integral</h6>
               </div>
             </div>
 
