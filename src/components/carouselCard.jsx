@@ -5,33 +5,25 @@ import 'swiper/css/effect-cards';
 
 import './carouselCard.css';
 
-import { ImgsMobile } from '../lib/imgs';
-
-import {EffectCreative } from 'swiper/modules';
+import { ImgsChildrensNature } from '../lib/imgs';
 
 export function CarouselCard() { 
 
   return (
     <>
       <Swiper
-        effect={'creative'}
-        grabCursor={true}
-        modules={[EffectCreative]}
-        creativeEffect={{
-          prev: {
-            shadow: false,
-            translate: [0, 0, -500],
-          },
-          next: {
-            translate: ['120%', 0, -500]
-          }
+        watchSlidesProgress={true}
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          767: { slidesPerView: 3 },
+          1024: { slidesPerView: 3 },
         }}
         className="mySwiper"
       >
        { 
-          ImgsMobile.map((img, index) => (
+          ImgsChildrensNature.map((img, index) => (
             <SwiperSlide key={index}>
-                <img className='w-[500px] h-[500px] border-4 p-0 border-primary rounded-2xl ' src={img.src} alt={img.alt} />
+                <img className='border-2 p-0 border-white ' src={img.src} alt={img.alt} />
             </SwiperSlide>
           ))
         }

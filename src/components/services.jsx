@@ -74,19 +74,22 @@ export function Services(){
       <section  id="services" className="py-6 lg:py-16 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
         
         <div className="">
-          <Grid>
+          {/* <Grid> */}
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
-            <div className="mt-8">
+            <div className="mx-2 mt-8">
               <CarouselCard />
             </div>
+
+        
+
 
             <Link to='/educacao-infantil'>
               <button className="font-['Bungee'] mt-16 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-primary-dark to-primary text-white hover:opacity-90 duration-200">
                 Saiba mais
               </button>
             </Link>
-          </Grid>
+          {/* </Grid> */}
         </div>
         
       </section>
