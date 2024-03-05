@@ -17,7 +17,7 @@ export function ChildEducation(){
           <div>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
 
-            <p className="mt-6 text-center text-xl text-gray-400 ">
+            <p className="mt-6 text-center text-xl text-gray-500 ">
               Na Saint Helena, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma professora musicista, com mais de 30 anos de experiência em educação musical, que ministra aulas de inicialização musical, e também um educador físico que trabalha o desenvolvimento psicomotor com as crianças. 
               <br />
               <br />
@@ -72,7 +72,7 @@ export function ChildEducation(){
 
         <div className="flex justify-center pb-16">
           <a href="">
-            <button className="font-['Bungee']  text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-[#44a930] text-white hover:opacity-90 duration-200">
+            <button className="font-['Bungee']  text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-[#358325] to-[#44a930] text-white hover:opacity-90 duration-200">
               Entre em contato
             </button>
           </a>

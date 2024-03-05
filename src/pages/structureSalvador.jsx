@@ -9,9 +9,9 @@ export function StructureSalvador(){
       <Grid>
         <div className="pb-10">
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Estrutura</h1>
-          <p className="mt-4 mb-8 text-center text-xl text-gray-400 sm:mx-16">Saiba mais sobre o que Saint Helena Salvador pode oferecer</p>
+          <p className="mt-4 mb-8 text-center text-xl text-gray-500 sm:mx-16">Saiba mais sobre o que Saint Helena Salvador pode oferecer</p>
 
-          <div className="bg-primary rounded-xl sm:flex sm:space-y-6 ">
+          <div className=" bg-primary rounded-xl sm:flex sm:space-y-6 ">
             <img src={Local} alt="" className=" size-[400px] rounded-t-xl"/>
             <div className="py-8 px-6 ">
               <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">Espaço com mais de 1.500m²</h1>
@@ -25,7 +25,7 @@ export function StructureSalvador(){
 
       <div className="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F6B115" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,720,170.7C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-        <div className="bg-secondary-yellow pb-8">
+        <div className="bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow pb-8">
           <Grid>
             <p className="mt-4 text-center text-xl text-white ">
             A <strong>Saint Helena</strong> possui salas de aula com duas entradas em cada uma delas para favorecer o intercâmbio entre os ambientes. Isso potencializa as relações entre as crianças, as descobertas que acontecem por meio da exploração dos espaços bem como a autonomia. 
