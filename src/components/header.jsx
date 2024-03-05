@@ -39,7 +39,7 @@ export function Header(){
                   <Link to="/educacao-infantil" onClick={() => setNavbar(!navbar)}>Educação infantil</Link>
                   </li>
                   <li className="pb-2 flex gap-3 text-center">
-                    <button className="font-['Bungee'] text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-secondary-yellow text-white hover:opacity-90 duration-200">
+                    <button className="font-['Bungee'] text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow text-white hover:opacity-90 duration-200">
                       Entre em contato
                     </button>
                   </li>

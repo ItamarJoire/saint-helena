@@ -1,5 +1,4 @@
-import { FaInstagram, FaWhatsapp, FaClock } from 'react-icons/fa'
-import { MdPlace } from "react-icons/md";
+import { FaInstagram, FaWhatsapp, FaFacebook } from 'react-icons/fa'
 
 import { Grid } from "../containers";
 
@@ -43,6 +42,7 @@ export function Footer(){
             <ul className='flex gap-3 mt-4 justify-center'>
                 <li><a href="/"><FaWhatsapp  className='text-white ' size={24}/></a></li>
                 <li><a href="/"><FaInstagram className='text-white' size={24}/></a></li>
+                {/* <li><a href="/"><FaFacebook className='text-white' size={24}/></a></li> */}
               </ul>
           </div>
         </div>
