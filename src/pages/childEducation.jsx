@@ -11,7 +11,7 @@ export function ChildEducation(){
   }, [])
 
   return(
-    <section className="pt-3 h-auto bg-[#EDEDEF] lg:">
+    <section className="pt-3 h-auto bg-[#EDEDEF] ">
       <div className="pb-2">
         <Grid>
           <div>
