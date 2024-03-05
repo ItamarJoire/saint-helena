@@ -14,8 +14,8 @@ export default {
         'hero-pattern-camb': "url('/bg-camb.jpg')"
       },
       colors: {
-        primary: '#004E92',
-        'primary-dark': '#003461',
+        primary: '#0059A7',
+        'primary-dark': '#001E84',
         'primary-light': '#006BC7',
         'primary-2': '#fff',
         'secondary-yellow': '#F6B115',
