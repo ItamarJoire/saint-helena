@@ -7,9 +7,13 @@ import Solutions from '../assets/solutions.svg'
 import Insight from '../assets/insight.svg'
 import { CarouselCard } from "../components"
 
+import circle1 from '../assets/circle-1.svg'
+import circle2 from '../assets/circle-2.svg'
+
 export function Services(){
   return(
-    <div className=" bg-[#EDEDEF]"> 
+    <div className=" bg-[#EDEDEF] relative"> 
+      <img className="max-sm:hidden absolute size-44 opacity-45 right-[-60px] top-[180px]" src={circle1} alt="" />
       <section className="py-6 lg:py-16">
         <Grid>
             <div className="">
@@ -42,7 +46,8 @@ export function Services(){
       </section>
 
       <section>
-        <div className="py-6 lg:py-16 bg-gradient-to-t from-primary-dark to-primary">
+        <div className="py-6 lg:py-16 bg-gradient-to-t from-primary-dark to-primary relative">
+        <img className="max-sm:hidden absolute size-44 opacity-45 left-[-40px] top-[80px]" src={circle2} alt="" />
           <Grid>
             <div className="text-center">
               <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">Seu filho bilíngue com</h1>
