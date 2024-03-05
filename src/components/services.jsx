@@ -77,7 +77,6 @@ export function Services(){
       <section  id="services" className="py-6 lg:py-16 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
         
         <div className="">
-          {/* <Grid> */}
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
             <div className="mx-4 sm:mx-20 mt-8">
@@ -92,7 +91,6 @@ export function Services(){
                 Saiba mais
               </button>
             </Link>
-          {/* </Grid> */}
         </div>
         
       </section>
