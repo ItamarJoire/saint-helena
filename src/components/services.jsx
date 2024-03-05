@@ -11,9 +11,9 @@ export function Services(){
   return(
     <div className=" bg-[#EDEDEF]">
       
-      <section className="py-6 lg:py-16 lg:mx-48">
+      <section className="py-6 lg:py-16 ">
         <Grid>
-          <div >
+          <div className="lg:mx-48">
             <div className="text-center">
               <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Educação infantil</h1>
               <h3 className="font-['Bungee'] text-gray-400 text-2xl text-center font-extrabold tracking-widest">Baseada em 3 pilares</h3>
@@ -73,7 +73,7 @@ export function Services(){
 
       <section  id="services" className="py-6 lg:py-16 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
         
-        <div className="lg:mx-48">
+        <div className="">
           <Grid>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
