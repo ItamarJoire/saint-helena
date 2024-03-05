@@ -80,7 +80,7 @@ export function Services(){
           {/* <Grid> */}
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
-            <div className="sm:mx-20 mt-8">
+            <div className="mx-4 sm:mx-20 mt-8">
               <CarouselCard />
             </div>
 

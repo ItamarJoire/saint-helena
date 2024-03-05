@@ -12,8 +12,6 @@ import 'swiper/css/pagination';
 
 import { ImgsDesktop, ImgsMobile } from '../lib/imgs'
 
-import './carouselFade.css'
-
 export function CarouselFade(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
   
