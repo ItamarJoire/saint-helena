@@ -10,8 +10,7 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Imgs, ImgsMobile } from '../lib/imgs'
-
+import { ImgsDesktop, ImgsMobile } from '../lib/imgs'
 
 import './carouselFade.css'
 
@@ -67,9 +66,9 @@ export function CarouselFade(){
         { isDesktop ? (
           <div>
             { 
-              Imgs.map((img, index) => (
+              ImgsDesktop.map((img, index) => (
                 <SwiperSlide key={index}>
-                    <img className='w-screen h-[400px]' src={img.src} alt={img.alt} />
+                    <img className='w-screen h-auto' src={img.src} alt={img.alt} />
                 </SwiperSlide>
               ))
             }
@@ -79,7 +78,7 @@ export function CarouselFade(){
             { 
               ImgsMobile.map((img, index) => (
                 <SwiperSlide key={index}>
-                    <img className='w-screen h-[400px]' src={img.src} alt={img.alt} />
+                    <img className='w-screen h-auto' src={img.src} alt={img.alt} />
                 </SwiperSlide>
               ))
             }

@@ -5,7 +5,7 @@ import 'swiper/css/effect-cards';
 
 import './carouselCard.css';
 
-import { Imgs } from '../lib/imgs';
+import { ImgsMobile } from '../lib/imgs';
 
 import {EffectCreative, EffectCards } from 'swiper/modules';
 
@@ -29,7 +29,7 @@ export function CarouselCard() {
         className="mySwiper"
       >
        { 
-          Imgs.map((img, index) => (
+          ImgsMobile.map((img, index) => (
             <SwiperSlide key={index}>
                 <img className='w-[260px] h-[300px] border-4 p-0 border-primary rounded-2xl sm:w-[500px] ' src={img.src} alt={img.alt} />
             </SwiperSlide>

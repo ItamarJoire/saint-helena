@@ -7,7 +7,7 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Imgs } from '../lib/imgs'
+import { ImgsMobile } from '../lib/imgs'
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -83,7 +83,7 @@ export function Carousel(){
       >
       
         { 
-          Imgs.map((img, index) => (
+          ImgsMobile.map((img, index) => (
             <SwiperSlide key={index}>
               <div className='carouselScrollImg border-4 rounded-xl border-primary-2'>
                 <img className='w-full h-[400px] object-cover rounded-lg sm:w-[500px] ' src={img.src} alt={img.alt} />
