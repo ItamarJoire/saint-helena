@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { useMediaQuery } from 'react-responsive';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Pagination, EffectFade } from 'swiper/modules'
 
@@ -8,13 +10,16 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Imgs } from '../lib/imgs'
+import { Imgs, ImgsMobile } from '../lib/imgs'
+
 
 import './carouselFade.css'
 
 export function CarouselFade(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
   
+  const isDesktop = useMediaQuery({ minWidth: 768 })
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640 && navigationEnabled) {
@@ -34,6 +39,8 @@ export function CarouselFade(){
   }, [navigationEnabled]);
 
   return (
+    
+
     <div className='mySwiper'>
       <Swiper
         style={{
@@ -57,12 +64,27 @@ export function CarouselFade(){
         navigation={navigationEnabled ? true : false}
      
       >
-        { 
-          Imgs.map((img, index) => (
-            <SwiperSlide key={index}>
-              <img className='w-screen h-[400px]' src={img.src} alt={img.alt} />
-            </SwiperSlide>
-          ))
+        { isDesktop ? (
+          <div>
+            { 
+              Imgs.map((img, index) => (
+                <SwiperSlide key={index}>
+                    <img className='w-screen h-[400px]' src={img.src} alt={img.alt} />
+                </SwiperSlide>
+              ))
+            }
+          </div>
+        ) : (
+          <div>
+            { 
+              ImgsMobile.map((img, index) => (
+                <SwiperSlide key={index}>
+                    <img className='w-screen h-[400px]' src={img.src} alt={img.alt} />
+                </SwiperSlide>
+              ))
+            }
+          </div>
+        )
         }
       </Swiper>
     </div>
