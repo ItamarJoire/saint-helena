@@ -15,7 +15,7 @@ export function Hero() {
 
         <div className='py-6 bg-gradient-to-t from-primary-dark to-primary'>
           <Grid>
-            <div className='flex flex-col items-center lg:pt-20'>
+            <div className='lg:mx-40 flex flex-col items-center lg:pt-20'>
               <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">12 anos de excelência em <span className="text-secondary-yellow">educação bilíngue</span></h1>
               <h3 className="mt-3 text-primary-2 text-center opacity-90 text-xl font-medium">Inspirada no sonho de um avô visionário em Maringá.</h3> 
               <Link to='/educacao-infantil'> 

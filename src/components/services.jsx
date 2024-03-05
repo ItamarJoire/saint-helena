@@ -11,7 +11,7 @@ export function Services(){
   return(
     <div className=" bg-[#EDEDEF]">
       
-      <section className="py-6 lg:pb-0 ">
+      <section className="py-6 lg:py-16 lg:mx-48">
         <Grid>
           <div >
             <div className="text-center">
@@ -19,7 +19,7 @@ export function Services(){
               <h3 className="font-['Bungee'] text-gray-400 text-2xl text-center font-extrabold tracking-widest">Baseada em 3 pilares</h3>
             </div>
 
-            <div className="lg:flex lg:gap-4 lg:mt-8 lg:justify-center ">
+            <div className=" lg:mt-8 lg:justify-center ">
               <div className="mt-6 mx-3 border-4 border-secondary-yellow p-4 drop-shadow-xl rounded-xl flex flex-col items-center md:mx-44 lg:mx-0">
               <div className="flex items-center leading-6">
                 <h6 className="font-['Bungee'] tracking-widest text-secondary-yellow text-xl font-bold ml-2 text-center lg:text-xl">Afetividade</h6>
@@ -43,9 +43,7 @@ export function Services(){
       </section>
 
       <section>
-       
-        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#004E92" fill-opacity="1" d="M0,224L120,234.7C240,245,480,267,720,266.7C960,267,1200,245,1320,234.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg> */}
-        <div className="py-6 bg-gradient-to-t from-primary-dark to-primary">
+        <div className="py-6 lg:py-16 bg-gradient-to-t from-primary-dark to-primary">
           <Grid>
             
             <div className="text-center">
@@ -73,9 +71,9 @@ export function Services(){
         </div>
       </section>
 
-      <section  id="services" className="py-6 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
+      <section  id="services" className="py-6 lg:py-16 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
         
-        <div>
+        <div className="lg:mx-48">
           <Grid>
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
