@@ -19,7 +19,7 @@ export function Hero() {
         
         <CarouselFade />
 
-        <div className='bg-primary'>
+        <div className='bg-gradient-to-t from-primary-dark to-primary'>
           <Grid>
             <div className='flex flex-col pb-8 items-center lg:pt-20'>
               <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">12 anos de excelência em <span className="text-secondary-yellow">educação bilíngue</span></h1>
@@ -33,7 +33,7 @@ export function Hero() {
           </Grid>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" className='bg-[#EDEDEF]' viewBox="0 0 1440 320"><path fill="#004f93" fill-opacity="1" d="M0,64L120,53.3C240,43,480,21,720,26.7C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className='bg-[#EDEDEF]' viewBox="0 0 1440 320"><path fill="#003461" fill-opacity="1" d="M0,64L120,53.3C240,43,480,21,720,26.7C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
       </div>
 
     </section>
