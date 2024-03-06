@@ -1,23 +1,31 @@
 import { Grid } from "../containers";
 
 import Local from '../assets/structure.png'
+import Mascot from '../assets/mascot.svg'
+import Circle3 from '../assets/circle-3.svg'
 import { Carousel } from "../components";
 
 export function StructureSalvador(){
   return(
     <section>
       <Grid>
-        <div>
-          <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Estrutura</h1>
-          <p className="mt-4 mb-8 text-center text-xl text-gray-500 sm:mx-16">Saiba mais sobre o que Saint Helena Salvador pode oferecer</p>
+        <div className="">
+          <img className="absolute size-44 opacity-20 top-[30px] left-[-120px]" src={Circle3} alt="" />
+          <img className="absolute size-44 opacity-20 bottom-[0px] right-[-140px]" src={Circle3} alt="" />
 
-          <div className=" bg-primary rounded-xl sm:flex sm:space-y-6 ">
-            <img src={Local} alt="" className="p-1 rounded-t-xl sm:size-[400px] sm:rounded-tr-none sm:rounded-bl-xl"/>
-            <div className="py-8 px-6 ">
-              <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest">Espaço com mais de 1.500m²</h1>
-              <p className="mt-4 text-left text-xl text-white ">
-                A Saint Helena está preparada para oferecer a melhor estrutura para os seus alunos, com amplo espaço e contato com a natureza.
-              </p>
+          <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Estrutura</h1>
+          <p className="mt-4 mx-16 mb-16 text-center text-xl text-gray-500 ">Saiba mais sobre o que Saint Helena Salvador pode oferecer</p>
+
+          <div className="relative bg-primary w-[400px] mx-auto rounded-xl lg:w-full ">
+            <img className="absolute size-20 right-0 top-[-40px]" src={Mascot} alt="" />
+            <div className="lg:flex ">
+              <img src={Local} alt="" className="p-1 rounded-t-xl h-[300px] w-[400px] lg:rounded-tr-none lg:rounded-bl-xl lg:w-auto"/>
+              <div className="py-20 px-6 lg:py-6 lg:max-w-[455px]">
+                <h1 className="font-['Bungee'] text-primary-2 text-2xl text-center font-extrabold tracking-widest lg:text-left">Espaço com mais de 1.500m²</h1>
+                <p className="mt-4 text-left text-xl text-white ">
+                  A Saint Helena está preparada para oferecer a melhor estrutura para os seus alunos, com amplo espaço e contato com a natureza.
+                </p>
+              </div>
             </div>
           </div>
         </div>
