@@ -26,7 +26,7 @@ export function Hero() {
               </div>
             </div>
 
-            <div className='max-sm:hidden'>
+            <div className='max-sm:hidden px-12'>
               <img className='border-8 rounded-2xl border-secondary-yellow w-[500px]' src={ImgHero} alt="" />
             </div>
           </div>

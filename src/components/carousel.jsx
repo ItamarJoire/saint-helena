@@ -12,8 +12,6 @@ import { ImgsMobile } from '../lib/imgs'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import './carousel.css'
-
 export function Carousel(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
   

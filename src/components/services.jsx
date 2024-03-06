@@ -22,7 +22,7 @@ export function Services(){
                 <h3 className="font-['Bungee'] text-gray-400 text-2xl text-center font-extrabold tracking-widest">Baseada em 3 pilares</h3>
               </div>
 
-              <div className="lg:flex lg:gap-8 lg:mt-8 lg:justify-center ">
+              <div className="sm:mx-40 lg:flex lg:gap-8 lg:mt-8 lg:justify-center">
                 <div className="mt-6 mx-3 border-dashed border-4 border-secondary-yellow p-4 drop-shadow-xl rounded-3xl flex flex-col items-center justify-center md:mx-44 lg:mx-0">
                   <div className="flex items-center leading-6">
                     <h6 className="font-['Bungee'] tracking-widest text-secondary-yellow text-xl font-bold ml-2 text-center lg:text-xl">Afetividade</h6>
@@ -74,28 +74,21 @@ export function Services(){
         </div>
       </section>
 
-      <section  id="services" className="py-6 lg:py-16 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center">
-        
+      <section  id="services" className="py-20 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center"> 
         <div className="">
-            <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
+          <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Galeria</h1>
 
-            <div className="mx-4 sm:mx-20 mt-8">
-              <CarouselCard />
-            </div>
-
-        
-
-
-            <Link to='/educacao-infantil'>
-              <button className="font-['Bungee'] mt-16 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-primary-dark to-primary text-white hover:opacity-90 duration-200">
-                Saiba mais
-              </button>
-            </Link>
-        </div>
-        
+          <div className="mx-6 sm:mx-8 mt-8 xl:mx-40">
+            <CarouselCard />
+          </div>
+          
+          <Link to='/educacao-infantil'>
+            <button className="font-['Bungee'] mt-16 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-primary-dark to-primary text-white hover:opacity-90 duration-200">
+              Saiba mais
+            </button>
+          </Link>
+        </div> 
       </section>
-      
-
     </div>
   )
 }
