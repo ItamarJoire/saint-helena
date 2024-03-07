@@ -18,7 +18,7 @@ export function Footer(){
                   <li className="text-white text-base font-normal xl:text-lg"><a href="/sobre">Sobre</a></li>
                   <li className="text-white text-base font-normal xl:text-lg"><a href="/estrutura-salvador">Nossa Estrutura</a></li>
                   <li className="text-white text-base font-normal xl:text-lg"><a href="/educacao-infantil">Educação infantil</a></li>
-                  <li className="text-secondary-yellow text-base font-normal xl:text-lg underline"><a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target='_blank'>Entre em contato</a></li>
+                  <li className="text-secondary-yellow text-base font-normal xl:text-lg"><a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target='_blank' className='underline'>Entre em contato</a></li>
                   
   
                   <li className="text-white text-base font-normal xl:text-lg"><a href="https://sainthelena.com.br/">Conheça nossa <span className='text-secondary-yellow underline'>matriz</span></a></li>
