@@ -49,7 +49,7 @@ export function Header(){
                   
                   <li className="text-xl text-primary-2 text-center">
                   <div className="pt-6 border-t-[1px] border-[#CDCDCD]"></div>
-                  <a href="https://sainthelena.com.br/" target="_blank" onClick={() => setNavbar(!navbar)}>Conheça nossa <span className="text-secondary-yellow">matriz</span></a>
+                  <a href="https://sainthelena.com.br/" target="_blank" onClick={() => setNavbar(!navbar)}>Conheça nossa <span className="text-secondary-yellow underline">matriz</span></a>
                   </li>
 
                 </ul>

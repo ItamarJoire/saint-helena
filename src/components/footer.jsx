@@ -21,7 +21,7 @@ export function Footer(){
                   <li className="text-secondary-yellow text-base font-normal xl:text-lg"><a href="/">Entre em contato</a></li>
                   
   
-                  <li className="text-white text-base font-normal xl:text-lg"><a href="https://sainthelena.com.br/">Conheça nossa <span className='text-secondary-yellow'>matriz</span></a></li>
+                  <li className="text-white text-base font-normal xl:text-lg"><a href="https://sainthelena.com.br/">Conheça nossa <span className='text-secondary-yellow underline'>matriz</span></a></li>
                 </ul>
               </div>
             </div>
@@ -32,7 +32,7 @@ export function Footer(){
               </div>
 
               <div className='flex flex-col gap-2 '>
-                <p className="text-white text-base font-normal lg:max-w-[400px] xl:text-lg">Estamos abertos de <span className='font-bold'>segunda</span> a <span className=' font-bold'>sexta</span> das 07:30h às 18:00h</p>
+                <p className="text-white text-base font-normal lg:max-w-[400px] xl:text-lg">Estamos abertos de <span className='font-semibold'>segunda</span> a <span className=' font-semibold'>sexta</span> das <span className='font-semibold'>07:30h</span> às <span className='font-semibold'>18:00h</span></p>
               </div>
               <div className='flex flex-col gap-2 '>
                 <p className="text-white text-base font-normal lg:max-w-[400px] xl:text-lg">contatosalvador@sainthelena.com.br</p>
