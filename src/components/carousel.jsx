@@ -83,8 +83,8 @@ export function Carousel(){
         { 
           ImgsMobile.map((img, index) => (
             <SwiperSlide key={index}>
-              <div className='carouselScrollImg border-4 rounded-xl border-primary-2'>
-                <img className='w-full h-[400px] object-cover rounded-lg sm:w-[500px] ' src={img.src} alt={img.alt} />
+              <div className='carouselScrollImg border-8 rounded-xl border-primary-2'>
+                <img className='w-full h-[340px] object-cover rounded-lg sm:w-[500px] ' src={img.src} alt={img.alt} />
               </div>
             </SwiperSlide>
           ))

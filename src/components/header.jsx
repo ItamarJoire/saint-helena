@@ -57,14 +57,14 @@ export function Header(){
         </nav>
       </div>
 
-      <header className={`drop-shadow-md max-md:hidden flex px-6 h-[84px] items-center justify-around ${navbar ? 'hidden' : 'max-md:h-[60vh] max-md:flex-col max-md:gap-1 max-md:items-start max-md:justify-start bg-primary max-md:w-full'}`}>
-      <a href="/"><img src={Logo} width={80} height={80} alt="" /></a>
+      <header className={`drop-shadow-md max-md:hidden flex px-6 h-[84px] xl:h-[94px] items-center justify-around ${navbar ? 'hidden' : 'max-md:h-[60vh] max-md:flex-col max-md:gap-1 max-md:items-start max-md:justify-start bg-primary max-md:w-full'}`}>
+      <a href="/"><img src={Logo} width={80} height={80} alt="" className="xl:w-[90px]"/></a>
 
         <ul className="flex gap-8 max-md:flex-col items-center">
-        <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li>Sobre</li></Link>
-        <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li>Estrutura</li></Link>
-        <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li>Infantil</li></Link>
-        <a href="#" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200">
+        <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Sobre</li></Link>
+        <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Estrutura</li></Link>
+        <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Infantil</li></Link>
+        <a href="#" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200 xl:text-xl">
           Contato
         </button></li></a>
         </ul>
