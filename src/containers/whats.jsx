@@ -30,7 +30,7 @@ export function Whats(){
   return(
     <>
       {showScrollTopButton && 
-        <a className="fixed bottom-3 right-3 z-50" href="" >
+        <a className="fixed bottom-3 right-3 z-50" href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" >
           <Lottie options={OptionsWhats} height={84} width={84} />
         </a>
       }

@@ -1,8 +1,9 @@
-import { FaInstagram, FaWhatsapp, FaFacebook } from 'react-icons/fa'
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
 import { Grid } from "../containers";
 
 import Logo from '../assets/logo-white.svg'
+import Face from '../assets/face.svg'
 
 export function Footer(){
   return(
@@ -33,16 +34,21 @@ export function Footer(){
               <div className='flex flex-col gap-2 '>
                 <p className="text-white text-base font-normal lg:max-w-[400px] xl:text-lg">Estamos abertos de <span className='font-bold'>segunda</span> a <span className=' font-bold'>sexta</span> das 07:30h às 18:00h</p>
               </div>
+              <div className='flex flex-col gap-2 '>
+                <p className="text-white text-base font-normal lg:max-w-[400px] xl:text-lg">contatosalvador@sainthelena.com.br</p>
+                <p className="text-white text-base font-normal lg:max-w-[400px] xl:text-lg">(71) 3215-6901</p>
+              </div>
+
             </div>
           </div>
         
           <div className='mt-8 border-t-[1px] border-[#CDCDCD] border-opacity-30 rounded'></div>
           <div className=' text-white text-base font-medium text-center py-8 xl:text-lg'>
-            © 2024 - Todos os direitos reservados
+             © 2024 - Todos os direitos reservados
             <ul className='flex gap-3 mt-4 justify-center'>
-                <li><a href="/"><FaWhatsapp  className='text-white ' size={24}/></a></li>
-                <li><a href="/"><FaInstagram className='text-white' size={24}/></a></li>
-                {/* <li><a href="/"><FaFacebook className='text-white' size={24}/></a></li> */}
+                <li><a href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target='_blank'><FaWhatsapp  className='text-white ' size={24}/></a></li>
+                <li><a href="https://www.instagram.com/sainthelena.salvador/" target='_blank'><FaInstagram className='text-white' size={24}/></a></li>
+                <li><a href="https://www.facebook.com/sainthelenasalvador/" target='_blank'><img src={Face} alt=""  className='text-white' size={24}/></a></li>
               </ul>
           </div>
         </div>
