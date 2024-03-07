@@ -78,7 +78,7 @@ export function ChildEducation(){
         </Grid>
 
         <div className="flex justify-center pb-16">
-          <a href="">
+          <a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor.">
             <button className="font-['Bungee']  text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-[#358325] to-[#44a930] text-white hover:opacity-90 duration-200">
               Entre em contato
             </button>

@@ -39,7 +39,7 @@ export function Header(){
                   <Link to="/educacao-infantil" onClick={() => setNavbar(!navbar)}>Educação infantil</Link>
                   </li>
                   <li className="pb-2 flex gap-3 text-center">
-                    <a href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank">
+                    <a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank">
                       <button className="font-['Bungee'] text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow text-white hover:opacity-90 duration-200">
                         Entre em contato
                       </button>
@@ -66,7 +66,7 @@ export function Header(){
         <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Sobre</li></Link>
         <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Estrutura</li></Link>
         <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Infantil</li></Link>
-        <a href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200 xl:text-xl">
+        <a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200 xl:text-xl">
           Contato
         </button></li></a>
         </ul>

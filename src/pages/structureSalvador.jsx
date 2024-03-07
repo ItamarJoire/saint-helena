@@ -48,7 +48,7 @@ export function StructureSalvador(){
           <Carousel />
 
           <div className="flex justify-center">
-            <a href="">
+            <a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank">
             <button className="font-['Bungee'] mt-8 mb-10  text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-white text-secondary-yellow hover:opacity-90 duration-200">
                 Entrar em contato
               </button>

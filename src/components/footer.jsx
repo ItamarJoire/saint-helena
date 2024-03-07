@@ -46,7 +46,7 @@ export function Footer(){
           <div className=' text-white text-base font-medium text-center py-8 xl:text-lg'>
              © 2024 - Todos os direitos reservados
             <ul className='flex gap-3 mt-4 justify-center'>
-                <li><a href="https://api.whatsapp.com/send?l=pt&phone=5571996811525&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target='_blank'><FaWhatsapp  className='text-white ' size={24}/></a></li>
+                <li><a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target='_blank'><FaWhatsapp  className='text-white ' size={24}/></a></li>
                 <li><a href="https://www.instagram.com/sainthelena.salvador/" target='_blank'><FaInstagram className='text-white' size={24}/></a></li>
                 <li><a href="https://www.facebook.com/sainthelenasalvador/" target='_blank'><img src={Face} alt=""  className='text-white' size={24}/></a></li>
               </ul>
