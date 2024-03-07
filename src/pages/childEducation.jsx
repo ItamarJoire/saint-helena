@@ -8,9 +8,9 @@ import { ImgsNature } from "../lib/imgs";
 import { ChildrenCard } from "../components";
 
 export function ChildEducation(){
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return(
     <section className="relative pt-3 h-auto bg-[#EDEDEF] ">

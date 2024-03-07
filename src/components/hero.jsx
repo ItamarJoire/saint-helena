@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 
-import { Grid } from '../containers'
 import { CarouselFade } from './carouselFade';
 
 import ImgHero from '../assets/hero.jpg' 
