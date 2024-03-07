@@ -9,31 +9,9 @@ import 'swiper/css/pagination';
 
 import { ImgsMobile } from '../lib/imgs'
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
 export function Carousel(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
   
-  useLayoutEffect(() => {
-    gsap.registerPlugin(ScrollTrigger)
-    gsap.to('.carouselScrollImg', {
-      x: 0,
-      opacity: 1,
-      scrollTrigger: {
-        trigger: '.carouselContainer',
-        start: 'top 700px',
-        end: 'bottom 400px',
-        scrub: true
-      }
-    })
-
-    return () => {
-      gsap.killTweensOf('.carouselScroll')
-    }
-  }, [])  
-
-
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640 && navigationEnabled) {
@@ -53,7 +31,7 @@ export function Carousel(){
   }, [navigationEnabled]);
 
   return (
-    <div className='carouselContainer mySwiper my-12 mx-2 lg:mx-20'>
+    <div className='mySwiper my-12 mx-2 lg:mx-20'>
       <Swiper
         style={{
           '--swiper-navigation-size': '24px',
@@ -83,7 +61,7 @@ export function Carousel(){
         { 
           ImgsMobile.map((img, index) => (
             <SwiperSlide key={index}>
-              <div className='carouselScrollImg border-8 rounded-xl border-primary-2'>
+              <div className='border-8 rounded-xl border-primary-2'>
                 <img className='w-full h-[340px] object-cover rounded-lg sm:w-[500px] ' src={img.src} alt={img.alt} />
               </div>
             </SwiperSlide>
