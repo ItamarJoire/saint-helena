@@ -8,9 +8,9 @@ import { ImgsNature } from "../lib/imgs";
 import { ChildrenCard } from "../components";
 
 export function ChildEducation(){
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
 
   return(
     <section className="relative pt-3 h-auto bg-[#EDEDEF] ">
@@ -53,8 +53,8 @@ export function ChildEducation(){
               <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
                 {
                   ImgsNature.map((img) => (
-                    <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[188px] overflow-hidden">
-                    <div className="bg-contain rounded-md h-[140px] w-[180px] overflow-hidden" src>
+                    <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[168px] overflow-hidden">
+                    <div className="bg-contain rounded-md h-[140px] w-[160px] overflow-hidden" src>
                       <img className="size-[180px]" src={img.src}  alt={img.alt} />
                     </div>
                 </div>
