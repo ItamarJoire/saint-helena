@@ -15,10 +15,10 @@ export function Footer(){
               <a href="/"><img src={Logo} alt="" width={70} height={70} className='xl:w-[80px]'/></a>
               <div>
                 <ul className="grid gap-2">
-                  <li className="text-white text-base font-normal xl:text-lg"><a href="/">Sobre</a></li>
-                  <li className="text-white text-base font-normal xl:text-lg"><a href="/">Nossa Estrutura</a></li>
-                  <li className="text-white text-base font-normal xl:text-lg"><a href="/">Educação infantil</a></li>
-                  <li className="text-secondary-yellow text-base font-normal xl:text-lg"><a href="/">Entre em contato</a></li>
+                  <li className="text-white text-base font-normal xl:text-lg"><a href="/sobre">Sobre</a></li>
+                  <li className="text-white text-base font-normal xl:text-lg"><a href="/estrutura-salvador">Nossa Estrutura</a></li>
+                  <li className="text-white text-base font-normal xl:text-lg"><a href="/educacao-infantil">Educação infantil</a></li>
+                  <li className="text-secondary-yellow text-base font-normal xl:text-lg underline"><a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target='_blank'>Entre em contato</a></li>
                   
   
                   <li className="text-white text-base font-normal xl:text-lg"><a href="https://sainthelena.com.br/">Conheça nossa <span className='text-secondary-yellow underline'>matriz</span></a></li>
