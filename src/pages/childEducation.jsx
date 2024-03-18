@@ -42,10 +42,10 @@ export function ChildEducation(){
           <div className="">
             <h1 className="font-['Bungee'] text-secondary-yellow text-2xl text-center font-extrabold tracking-widest xl:text-3xl">O contato das crianças <span className="text-white">com a natureza</span></h1>
             <p className="mt-8 text-center text-xl text-white xl:text-2xl">
-              É extremamente importante que as crianças entrem em contato com a natureza, pois melhora a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
+              É extremamente importante que as crianças estejam em contato diário com a natureza, pois fortalece a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
               <br />
               <br />
-              Cuidar da natureza colabora para um mundo mehor.
+              Aqui na Saint Helena as crianças vivem um cotidiano permeado de elementos naturais.
             </p>
             
             <div className="bg-[#44a930] pt-12">
@@ -72,7 +72,7 @@ export function ChildEducation(){
           <div className="mt-[-20px] pb-16 flex gap-4 items-center lg:mt-[-140px] lg:justify-center">
             <div className="inline-block rounded-lg h-40 w-3 bg-secondary-yellow lg:w-none lg:h-0"></div>
             <p className="max-w-[312px] text-xl text-gray-400 lg:max-w-[512px] xl:text-2xl lg:text-center">
-              <span className="font-bold lg:text-[#44a930]">Incentivamos</span> nossos alunos a cuidarem dos recursos naturais, ensinando-os a plantar, cuidar e admirar as plantas.
+              <span className="font-bold lg:text-[#44a930]">Incentivamos</span> nossos alunos a cuidarem dos recursos naturais, ensinando-os a plantar, cuidar e admirar as plantas e os animais.
             </p>
           </div>
         </Grid>

@@ -190,7 +190,7 @@ export function ChildrenCard(){
 
                   <div className="mt-2 flex items-center gap-3">
                     <FaCircle className="text-secondary-yellow size-2"/>
-                    <p className="text-white xl:text-xl">2 professores para cada sala com 18 alunos<span className="text-secondary-yellow">;</span></p>
+                    <p className="text-white xl:text-xl">2 professores para cada sala com 12 alunos, podendo chegar a 15 alunos com a presença de mais uma adulto<span className="text-secondary-yellow">;</span></p>
                   </div>
                 </div>
               </div>
@@ -224,14 +224,21 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>movimento corporal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                      <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <FaCircle className="text-secondary-yellow size-4 mb-12 sm:mb-6"/>
+                      <div>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da <u>criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white xl:text-xl">Aprendizado por meios de <u>brincadeiras pedagógicas</u>, desenvolvendo a psicomotricidade e a cognição<span className="text-secondary-yellow">;</span></p>
+                      <p className="text-white xl:text-xl">Aprendizagem através das <u>interações e brincadeiras</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
                     <div className="mt-2 flex items-center gap-3">
@@ -271,7 +278,7 @@ export function ChildrenCard(){
 
                   <div className="mt-2 flex items-center gap-3">
                     <FaCircle className="text-secondary-yellow size-2"/>
-                    <p className="text-white xl:text-xl">2h30min professores para cada sala com 18 alunos<span className="text-secondary-yellow">;</span></p>
+                    <p className="text-white xl:text-xl">2 professores para cada sala com 18 alunos<span className="text-secondary-yellow">;</span></p>
                   </div>
                 </div>
               </div>
@@ -284,7 +291,7 @@ export function ChildrenCard(){
                     <div className="mt-2 flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-2"/>
                       <div>
-                        <p className="text-white xl:text-xl">2 horas de aula na <u>língua portuguesa</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">2 horas e 30 minutos de aula na <u>língua portuguesa</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -307,7 +314,21 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>movimento corportal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <FaCircle className="text-secondary-yellow size-4 mb-12 sm:mb-6"/>
+                      <div>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da <u>criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <FaCircle className="text-secondary-yellow size-4"/>
+                      <div>
+                      <p className="text-white xl:text-xl">Aprendizagem através das <u>interações e brincadeiras</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
