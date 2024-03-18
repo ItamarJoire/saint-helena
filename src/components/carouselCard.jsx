@@ -24,12 +24,12 @@ export function CarouselCard() {
           1380: { slidesPerView: 5 },
           1800: { slidesPerView: 6 },
         }}
-        className="mySwiper pb-3"
+        className="mySwiper pb-3 px-20"
       >
        { 
           ImgsGallery.map((img, index) => (
             <SwiperSlide key={index}>
-                <img className='border-8 w-full h-[300px] rounded-2xl border-secondary-yellow' src={img.src} alt={img.alt} />
+                <img className='border-8 w-[300px] h-[300px] rounded-2xl border-secondary-yellow' src={img.src} alt={img.alt} />
             </SwiperSlide>
           ))
         }
@@ -49,12 +49,12 @@ export function CarouselCard() {
           1380: { slidesPerView: 5 },
           1800: { slidesPerView: 6 },
         }}
-        className="mySwiper pb-6"
+        className="mySwiper pb-6 px-20"
       >
        { 
           ImgsGallery2.map((img, index) => (
             <SwiperSlide key={index}>
-                <img className='border-8 w-full  h-[300px] rounded-2xl border-primary' src={img.src} alt={img.alt} />
+                <img className='border-8 w-[300px]  h-[300px] rounded-2xl border-primary' src={img.src} alt={img.alt} />
             </SwiperSlide>
           ))
         }

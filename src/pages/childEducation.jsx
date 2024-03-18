@@ -24,10 +24,10 @@ export function ChildEducation(){
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest xl:text-3xl lg:mx-32">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
 
             <p className="mt-8 text-center text-xl text-gray-500 lg:mx-30 xl:text-2xl">
-              Na Saint Helena, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma professora musicista, com mais de 30 anos de experiência em educação musical, que ministra aulas de inicialização musical, e também um educador físico que trabalha o desenvolvimento psicomotor com as crianças. 
+              Na Saint Helena, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma <span className=" font-medium">professora musicista com ampla experiência em educação musical, que ministra aula de musicalização.</span> Além disso, um <span className=" font-medium">educador físico que trabalha o desenvolvimento psicomotor com as crianças</span>. 
               <br />
               <br />
-              Além disso, em todas as turmas há a presença da professora regente de um dos idiomas mais a professora auxiliar que, inclusive, acompanha os alunos nas aulas de música e desenvolvimento motor.
+              Em todas as turmas há a presença de mais uma adulto, a professora assistente que, inclusive, acompanha os alunos nas <span className=" font-medium">aulas de música, teatro e corpo e movimento</span>.
             </p>
           </div>
           </Grid>

@@ -1,17 +1,21 @@
 import ImgMobile1 from '../assets/card1-mobile.png'
 import ImgMobile2 from '../assets/card2-mobile.png'
+import ImgMobile3 from '../assets/card3-mobile.png'
 
 export const ImgsMobile = [
-  { src: ImgMobile1, alt: '' },
-  { src: ImgMobile2, alt: '' }
+  { src: ImgMobile3, alt: '' },
+  { src: ImgMobile2, alt: '' },
+  { src: ImgMobile1, alt: '' }
 ]
 
 import ImgDesktop1 from '../assets/card1-desktop.jpg'
 import ImgDesktop2 from '../assets/card2-desktop.jpg'
+import ImgDesktop3 from '../assets/card3-desktop.jpg'
 
 export const ImgsDesktop = [
-  { src: ImgDesktop1, alt: '' },
-  { src: ImgDesktop2, alt: '' }
+  { src: ImgDesktop3, alt: '' },
+  { src: ImgDesktop2, alt: '' },
+  { src: ImgDesktop1, alt: '' }
 ]
 
 import ImgChildren2Nature from '../assets/children-2-nature.jpg'
@@ -46,12 +50,9 @@ export const ImgsNature = [
 
 import ImgGallery1 from '../assets/gallery-1.jpg'
 import ImgGallery2 from '../assets/gallery-2.jpg'
-import ImgGallery3 from '../assets/gallery-3.jpg'
-import ImgGallery4 from '../assets/gallery-4.jpg'
 import ImgGallery5 from '../assets/gallery-5.jpg'
 import ImgGallery6 from '../assets/gallery-6.jpg'
 import ImgGallery7 from '../assets/gallery-7.jpg'
-import ImgGallery8 from '../assets/gallery-8.jpg'
 import ImgGallery9 from '../assets/gallery-9.jpg'
 import ImgGallery10 from '../assets/gallery-10.jpg'
 import ImgGallery11 from '../assets/gallery-11.jpg'
@@ -64,12 +65,9 @@ import ImgGallery16 from '../assets/gallery-16.jpg'
 export const ImgsGallery = [
   { src: ImgGallery1, alt: '' },
   { src: ImgGallery2, alt: '' },
-  { src: ImgGallery3, alt: '' },
-  { src: ImgGallery4, alt: '' },
   { src: ImgGallery5, alt: '' },
   { src: ImgGallery6, alt: '' },
   { src: ImgGallery7, alt: '' },
-  { src: ImgGallery8, alt: '' },
   { src: ImgGallery9, alt: '' },
   { src: ImgGallery10, alt: '' },
   { src: ImgGallery11, alt: '' },

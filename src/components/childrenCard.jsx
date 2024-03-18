@@ -8,7 +8,6 @@ import { ImgsGallery } from '../lib/imgs'
 export function ChildrenCard(){
   return(
     <div className=''>
-      
       <div className="relative pb-2">
       
           <Grid>
@@ -20,8 +19,8 @@ export function ChildrenCard(){
                   <h3 className="font-['Bungee'] text-secondary-yellow text-left xl:text-xl">Matutino e vespertivo</h3>
 
                   <div className="mt-2 flex items-center gap-3">
-                    <FaCircle className="text-secondary-yellow size-2"/>
-                    <p className="text-white xl:text-xl">2 professores para cada sala com 12 alunos<span className="text-secondary-yellow">;</span></p>
+                    <FaCircle className="text-secondary-yellow size-3"/>
+                    <p className="text-white xl:text-xl">2 professores para cada sala com 12 alunos, podendo chegar a 15 alunos com a presença de mais uma adulto<span className="text-secondary-yellow">;</span></p>
                   </div>
                 </div>
               </div>
@@ -48,14 +47,21 @@ export function ChildrenCard(){
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>movimento corporal</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-3">
                       <FaCircle className="text-secondary-yellow size-4"/>
                       <div>
-                        <p className="text-white xl:text-xl">Aprendizado por meios de <u>brincadeiras pedagógicas</u>, desenvolvendo a psicomotricidade e a cognição<span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da <u>criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <FaCircle className="text-secondary-yellow size-4"/>
+                      <div>
+                        <p className="text-white xl:text-xl">Aprendizagem através das <u>interações e brincadeiras</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -313,7 +319,7 @@ export function ChildrenCard(){
                 </div>
               </div>
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[15].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[11].src} alt="" />
               </div>
             </div>
 
