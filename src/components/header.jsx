@@ -30,7 +30,7 @@ export function Header(){
               <div className={`flex-1  justify-self-center block pt-6 pl-6 md:mt-0 transition-all duration-300 ease-in ${navbar ? 'pb-8 px-2 md:p-0 block' : 'hidden'}`}>
                 <ul className="font-['Bungee'] font-normal tracking-widest flex flex-col gap-6  items-center">
                   <li className="text-xl text-primary-2 text-center ">
-                    <Link to="/sobre" onClick={() => setNavbar(!navbar)}>Sobre</Link>
+                    <Link to="/sobre" onClick={() => setNavbar(!navbar)}>Início</Link>
                   </li>
                   <li className="text-xl text-primary-2 text-center">
                   <Link to="/estrutura-salvador" onClick={() => setNavbar(!navbar)}>Nossa estrutura</Link>
@@ -63,7 +63,7 @@ export function Header(){
       <a href="/"><img src={Logo} width={80} height={80} alt="" className="xl:w-[90px]"/></a>
 
         <ul className="flex gap-8 max-md:flex-col items-center">
-        <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Sobre</li></Link>
+        <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Início</li></Link>
         <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Estrutura</li></Link>
         <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest xl:text-xl"><li>Infantil</li></Link>
         <a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200 xl:text-xl">
