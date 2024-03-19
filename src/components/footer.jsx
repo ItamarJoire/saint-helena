@@ -10,7 +10,7 @@ export function Footer(){
     <section className="bg-gradient-to-t from-primary-dark to-primary pt-4 lg:pt-20 text-left">
       <Grid>
         <div> 
-          <div className="flex flex-col gap-8 sm:gap-0 sm:grid sm:grid-cols-2 sm:text-left sm:items-end lg:flex lg:flex-row lg:gap-40">
+          <div className="flex flex-col gap-8 sm:gap-0 sm:grid sm:grid-cols-2 sm:text-left sm:items-end lg:flex lg:flex-row lg:gap-40 xl:justify-evenly">
             <div className='flex flex-col gap-8'>
               <a href="/"><img src={Logo} alt="" width={70} height={70} className='xl:w-[80px]'/></a>
               <div>

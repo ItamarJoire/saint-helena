@@ -11,7 +11,7 @@ export function ChildrenCard(){
       <div className="relative pb-2">
       
           <Grid>
-            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl ">
+            <div class="mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl xl:mx-28">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest xl:text-3xl">Toodlers</h1>
               
               <div className="px-6">
@@ -84,7 +84,7 @@ export function ChildrenCard(){
 
       <div className="pb-2">
           <Grid>
-            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl">
+            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl xl:mx-28">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest xl:text-3xl">Tiny Tots</h1>
               
               <div className="px-6">
@@ -180,7 +180,7 @@ export function ChildrenCard(){
 
       <div className="pb-2">
           <Grid>
-            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl">
+            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl xl:mx-28">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest xl:text-3xl">Pre-kindergarten</h1>
               
               <div className="px-6">
@@ -279,7 +279,7 @@ export function ChildrenCard(){
 
       <div className="pb-2">
           <Grid>
-            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl">
+            <div class=" mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl xl:mx-28">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest xl:text-3xl">Kindergarten</h1>
               
               <div className="px-6">

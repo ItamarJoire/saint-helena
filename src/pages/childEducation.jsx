@@ -8,9 +8,9 @@ import { ImgsNature } from "../lib/imgs";
 import { ChildrenCard } from "../components";
 
 export function ChildEducation(){
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
 
   return(
     <section className="relative pt-3 h-auto bg-[#EDEDEF] ">
@@ -21,9 +21,9 @@ export function ChildEducation(){
       <div className="pb-2">
         <Grid>
           <div>
-            <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest xl:text-3xl lg:mx-32">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
+            <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest xl:text-3xl lg:mx-32 xl:mx-60">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
 
-            <p className="mt-8 text-center text-xl text-gray-500 lg:mx-30 xl:text-2xl">
+            <p className="mt-8 text-center text-xl text-gray-500 lg:mx-30 xl:text-2xl xl:mx-40">
               Na <u>Saint Helena</u>, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma <span className=" font-medium">professora musicista com ampla experiência em educação musical, que ministra aula de musicalização.</span> Temos também <span className=" font-medium">aulas de teatro</span> a fim de promover a <span className=" font-medium">expressão de múltiplas linguagens</span>, <span className=" font-medium">fomentar o imaginário</span> e a <span className=" font-medium">desenvoltura</span>. Além disso, um <span className=" font-medium">educador físico que trabalha o desenvolvimento psicomotor com as crianças</span>. 
               <br />
               <br />
@@ -40,8 +40,8 @@ export function ChildEducation(){
       <div className="bg-[#44A930]">
         <Grid>
           <div className="">
-            <h1 className="font-['Bungee'] text-secondary-yellow text-2xl text-center font-extrabold tracking-widest xl:text-3xl">O contato das crianças <span className="text-white">com a natureza</span></h1>
-            <p className="mt-8 text-center text-xl text-white xl:text-2xl">
+            <h1 className="font-['Bungee'] text-secondary-yellow text-2xl text-center font-extrabold tracking-widest xl:text-3xl xl:mx-52">O contato das crianças <span className="text-white">com a natureza</span></h1>
+            <p className="mt-8 text-center text-xl text-white xl:text-2xl xl:mx-52">
               É extremamente importante que as crianças estejam em contato diário com a natureza, pois fortalece a saúde física e mental, a aprendizagem, o desempenho escolar, além de reduzir os sintomas relacionados à déficit de atenção e hiperatividade, e aumentar o estímulo ao convívio social.
               <br />
               <br />
@@ -49,8 +49,8 @@ export function ChildEducation(){
             </p>
             
             <div className="bg-[#44a930] pt-12">
-              <h1 className="font-['Bungee'] text-secondary-yellow text-center text-2xl xl:text-3xl">Galeria</h1>
-              <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
+              <h1 className="font-['Bungee'] text-secondary-yellow text-center text-2xl xl:text-3xl ">Galeria</h1>
+              <div class="bg-hero-pattern-texture pb-32 bg-fill bg-no-repeat bg-center mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-5">
                 {
                   ImgsNature.map((img) => (
                     <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[168px] overflow-hidden">
