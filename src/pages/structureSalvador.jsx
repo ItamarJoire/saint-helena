@@ -14,7 +14,7 @@ export function StructureSalvador(){
           <img className="absolute size-44 opacity-20 bottom-[0px] right-[-140px] lg:right-[-90px]" src={Circle3} alt="" />
 
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Estrutura</h1>
-          <p className="mt-4 mx-16 mb-16 text-center text-xl text-gray-500 lg:mx-32 xl:mx-60 xl:text-2xl">Saiba mais sobre o que Saint Helena Salvador pode oferecer</p>
+          <p className="mt-4 mx-16 mb-16 text-center text-xl text-gray-500 lg:mx-32 xl:mx-60 xl:text-2xl">Saiba mais sobre o que <u>Saint Helena</u> Salvador pode oferecer</p>
 
           <div className="relative bg-primary max-w-[400px] mx-auto rounded-xl sm:max-w-none sm:mx-0 xl:mx-64">
             <img className="absolute size-20 right-0 top-[-40px] sm:top-[-60px]" src={Mascot} alt="" />
