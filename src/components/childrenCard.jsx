@@ -47,14 +47,14 @@ export function ChildrenCard(){
                     <div className="flex ">
                       <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para <u>desenvolvimento psicomotor</u> com <u>professora especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex ">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da <u>criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para <u>desenvolvimento da expressão</u> por meio de <u>múltiplas linguagens, da criatividade e do imaginário</u> com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -126,28 +126,28 @@ export function ChildrenCard(){
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da<u>craitividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para <u>desenvolvimento da expressão</u> por meio de <u>múltiplas linguagens, da criatividade e do imaginário</u> com <u>professora especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>LIV (Laboratório Inteligência de Vida)</u>: um currículo especialmente elaborado para o desenvolvimento socioemocional de nossas crianças<span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>LIV (Laboratório Inteligência de Vida)</u>: um currículo especialmente elaborado para o <u>desenvolvimento socioemocional</u> de nossas crianças<span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>MAKER</u> - uma proposta para que nossas crianças aprendam a resolver problemas através da inovação de ideias<span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>MAKER</u> - uma proposta para que nossas crianças aprendam a resolver problemas através da <u>inovação de ideias</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para <u>desenvolvimento psicomotor</u> com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -189,7 +189,7 @@ export function ChildrenCard(){
 
                   <div className="flex">
                   <li className='text-secondary-yellow'></li>
-                    <p className="text-white xl:text-xl">2 professores para cada sala com 12 alunos, podendo chegar a 15 alunos com a presença de mais uma adulto<span className="text-secondary-yellow">;</span></p>
+                    <p className="text-white xl:text-xl">2 professores para cada sala com até 18 alunos<span className="text-secondary-yellow">;</span></p>
                   </div>
                 </div>
               </div>
@@ -220,17 +220,33 @@ export function ChildrenCard(){
                       </div>
                     </div>
 
+                    
+
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                      <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para <u>desenvolvimento da expressão</u> por meio de <u>múltiplas linguagens, da criatividade e do imaginário</u> com <u>professora especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da <u>criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>LIV (Laboratório Inteligência de Vida)</u>: um currículo especialmente elaborado para o <u>desenvolvimento socioemocional</u> de nossas crianças<span className="text-secondary-yellow">;</span></p>
+                      </div>
+                    </div>
+
+                    <div className="flex">
+                    <li className='text-secondary-yellow'></li>
+                      <div>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>MAKER</u> - uma proposta para que nossas crianças aprendam a resolver problemas através da <u>inovação de ideias</u><span className="text-secondary-yellow">;</span></p>
+                      </div>
+                    </div>
+
+                    <div className="flex">
+                    <li className='text-secondary-yellow'></li>
+                      <div>
+                      <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para <u>desenvolvimento psicomotor</u> com <u>professor especialista</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
@@ -240,12 +256,7 @@ export function ChildrenCard(){
                       <p className="text-white xl:text-xl">Aprendizagem através das <u>interações e brincadeiras</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
-                    <div className="flex">
-                    <li className='text-secondary-yellow'></li>
-                      <div>
-                        <p className="text-white xl:text-xl">Aprendizagem <u>lúdica e significativa</u><span className="text-secondary-yellow">;</span></p>
-                      </div>
-                    </div>
+                    
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
@@ -320,7 +331,7 @@ export function ChildrenCard(){
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de múltiplas linguagens, da <u>criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>teatro</u> para desenvolvimento da expressão por meio de <u>múltiplas linguagens, da criatividade e do imaginário</u><span className="text-secondary-yellow">;</span></p>
                       </div>
                     </div>
 
