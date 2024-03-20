@@ -27,7 +27,7 @@ export function ChildEducation(){
               Na <u>Saint Helena</u>, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma <span className=" font-medium">professora musicista com ampla experiência em educação musical, que ministra aula de musicalização.</span> Temos também <span className=" font-medium">aulas de teatro</span> a fim de promover a <span className=" font-medium">expressão de múltiplas linguagens</span>, <span className=" font-medium">fomentar o imaginário</span> e a <span className=" font-medium">desenvoltura</span>. Além disso, um <span className=" font-medium">educador físico que trabalha o desenvolvimento psicomotor com as crianças</span>. 
               <br />
               <br />
-              Em todas as turmas há a presença de mais uma adulto, a professora assistente que, inclusive, acompanha os alunos nas <span className=" font-medium">aulas de música, teatro</span> e <span className=" font-medium">corpo</span> e <span className=" font-medium">movimento</span>.
+              Em todas as turmas há a presença de mais um adulto, a professora assistente que, inclusive, acompanha os alunos nas <span className=" font-medium">aulas de música, teatro</span> e <span className=" font-medium">corpo</span> e <span className=" font-medium">movimento</span>.
             </p>
           </div>
           </Grid>
