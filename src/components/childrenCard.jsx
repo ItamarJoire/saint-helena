@@ -20,7 +20,7 @@ export function ChildrenCard(){
 
                   <div className="mt-2 flex">
                     <li className='text-secondary-yellow'></li>
-                    <p className="text-white xl:text-xl">2 professores para cada sala com 12 alunos, podendo chegar a 15 alunos com a presença de mais uma adulto<span className="text-secondary-yellow">.</span></p>
+                    <p className="text-white xl:text-xl">2 professores para cada sala com 12 alunos, podendo chegar a 15 alunos com a presença de mais um adulto<span className="text-secondary-yellow">.</span></p>
                   </div>
                 </div>
               </div>
