@@ -14,9 +14,9 @@ export function StructureSalvador(){
           <img className="absolute size-44 opacity-20 bottom-[0px] right-[-140px] lg:right-[-90px]" src={Circle3} alt="" />
 
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest">Estrutura</h1>
-          <p className="mt-4 mx-16 mb-16 text-center text-xl text-gray-500 lg:mx-32 xl:mx-60 xl:text-2xl">Saiba mais sobre o que <u>Saint Helena</u> Salvador pode oferecer</p>
+          <p className="mt-4 mx-16 mb-16 text-center text-xl text-gray-500 lg:mx-24  xl:text-2xl">Saiba mais sobre o que <u>Saint Helena</u> Salvador pode oferecer</p>
 
-          <div className="relative bg-primary max-w-[400px] mx-auto rounded-xl sm:max-w-none sm:mx-0 xl:mx-64">
+          <div className="relative bg-primary max-w-[400px] mx-auto rounded-xl sm:max-w-none sm:mx-0 ">
             <img className="absolute size-20 right-0 top-[-40px] sm:top-[-60px]" src={Mascot} alt="" />
             <div className="sm:flex">
               <img src={Local} alt="" className="p-1 rounded-t-xl h-[300px] w-full sm:rounded-tr-none sm:rounded-bl-xl sm:w-[300px] sm:h-auto "/>
@@ -34,7 +34,7 @@ export function StructureSalvador(){
       <div className="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F6B115" fill-opacity="1" d="M0,160L120,165.3C240,171,480,181,720,170.7C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
         
-        <div className="bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow pb-8 xl:px-56">
+        <div className="bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow pb-8 ">
           
           <Grid>
             <p className="text-center text-xl text-white xl:text-2xl">
