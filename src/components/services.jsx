@@ -95,7 +95,7 @@ export function Services(){
           <h2 className="mt-4 text-gray-500 text-center text-xl max-w-[680px] mx-auto">A <span className="font-bold">Saint Helena Bilingual Education</span> agora oferece o <span className="font-bold">espaço de acolhimento, Toca da Coruja!</span> Desenhado para proporcionar uma nova experiência, em ambiente seguro, enriquecedor e estimulante, para as tardes das crianças <span className="font-bold">de 2 a 5 anos. Esta programação não é restrita aos alunos Saint Helena</span>.
           </h2>
           <button onClick={onButtonClick} className="font-['Bungee'] mt-12 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow text-white hover:opacity-90 duration-200 xl:text-2xl">
-              Conhecer acolhimento 
+              Conhecer Toca da Coruja 
             </button>
         </Grid>
       </section>
