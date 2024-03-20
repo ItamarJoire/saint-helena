@@ -352,7 +352,7 @@ export function ChildrenCard(){
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">Aprendizado por meios de <u>brincadeiras pedagógicas</u>, desenvolvendo a psicomotricidade e a cognição<span className="text-secondary-yellow">.</span></p>
+                        <p className="text-white xl:text-xl">Aprendizado por meios de <u>brincadeiras pedagógicas</u>, desenvolvendo a <u>psicomotricidade</u> e a <u>cognição</u><span className="text-secondary-yellow">.</span></p>
                       </div>
                     </div>
                     <div className="mt-2 flex">
