@@ -1,3 +1,5 @@
+import { useEffect } from 'react' 
+
 import { Link } from 'react-router-dom'
 
 import { CarouselFade } from './carouselFade';
@@ -5,7 +7,9 @@ import { CarouselFade } from './carouselFade';
 import ImgHero from '../assets/hero.jpg' 
 
 export function Hero() {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <section>
