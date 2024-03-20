@@ -11,6 +11,21 @@ import circle1 from '../assets/circle-1.svg'
 import circle2 from '../assets/circle-2.svg'
 
 export function Services(){
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Toca da Coruja - Saint Helena.pdf').then(response => {
+      response.blob().then(blob => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'Toca da Coruja - Saint Helena.pdf';
+        alink.click();
+      })
+    })
+  }
+
   return(
     <div className=" bg-[#EDEDEF] relative"> 
       <img className="max-sm:hidden absolute size-44 opacity-45 right-[-60px] top-[180px]" src={circle1} alt="" />
@@ -72,6 +87,17 @@ export function Services(){
           </Grid>
           
         </div>
+      </section>
+
+      <section className="py-10 text-center">
+        <Grid>
+          <h1 className="font-['Bungee'] text-2xl text-center text-secondary-yellow font-extrabold tracking-widest xl:text-3xl">Toca da Coruja<br/> <span className="text-primary">espaço de acolhimento</span></h1>
+          <h2 className="mt-4 text-gray-500 text-center text-xl max-w-[680px] mx-auto">A <span className="font-bold">Saint Helena Bilingual Education</span> agora oferece o <span className="font-bold">espaço de acolhimento, Toca da Coruja!</span> Desenhado para proporcionar uma nova experiência, em ambiente seguro, enriquecedor e estimulante, para as tardes das crianças <span className="font-bold">de 2 a 5 anos. Esta programação não é restrita aos alunos Saint Helena</span>.
+          </h2>
+          <button onClick={onButtonClick} className="font-['Bungee'] mt-12 text-xl shadow-md font-medium rounded-lg px-6 py-3 bg-gradient-to-t from-secondary-yellow-dark to-secondary-yellow text-white hover:opacity-90 duration-200 xl:text-2xl">
+              Conhecer acolhimento 
+            </button>
+        </Grid>
       </section>
 
       <section  id="services" className="py-20 bg-[url('/bg-gallery.jpg')] bg-cover bg-no-repeat h-auto text-center"> 
