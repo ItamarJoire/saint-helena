@@ -7,7 +7,7 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { ImgsMobile } from '../lib/imgs'
+import { ImgsStructure } from '../lib/imgs'
 
 export function Carousel(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
@@ -59,7 +59,7 @@ export function Carousel(){
       >
       
         { 
-          ImgsMobile.map((img, index) => (
+          ImgsStructure.map((img, index) => (
             <SwiperSlide key={index}>
               <div className='border-8 rounded-xl border-primary-2'>
                 <img className='w-full h-[340px] object-cover rounded-lg sm:w-[500px] ' src={img.src} alt={img.alt} />

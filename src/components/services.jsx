@@ -104,7 +104,7 @@ export function Services(){
         <div className="">
           <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest xl:text-3xl">Galeria</h1>
 
-          <div className="mx-6 sm:mx-8 mt-8 xl:mx-24">
+          <div className="mx-6 sm:mx-3 mt-8 xl:mx-24">
             <CarouselCard />
           </div>
           

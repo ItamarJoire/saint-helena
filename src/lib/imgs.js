@@ -37,6 +37,9 @@ import ImgNature4 from '../assets/nature-4.jpg'
 import ImgNature5 from '../assets/nature-5.jpg'
 import ImgNature6 from '../assets/nature-6.jpg'
 import ImgNature7 from '../assets/nature-7.jpg'
+import ImgNature8 from '../assets/nature-8.jpg'
+import ImgNature9 from '../assets/nature-9.jpg'
+import ImgNature10 from '../assets/nature-10.jpg'
 
 export const ImgsNature = [
   { src: ImgNature1, alt: '' },
@@ -45,7 +48,10 @@ export const ImgsNature = [
   { src: ImgNature4, alt: '' },
   { src: ImgNature5, alt: '' },
   { src: ImgNature6, alt: '' },
-  { src: ImgNature7, alt: '' }
+  { src: ImgNature7, alt: '' },
+  { src: ImgNature8, alt: '' },
+  { src: ImgNature9, alt: '' },
+  { src: ImgNature10, alt: '' }
 ]
 
 import ImgGallery1 from '../assets/gallery-1.jpg'
@@ -108,4 +114,24 @@ export const ImgsGallery2 = [
   { src: ImgGallery29, alt: '' }
 ]
 
-export const ImgsInfrastructure = [{ src: '', alt: '' }]
+import ImgStruct1 from '../assets/struct-1.jpg'
+import ImgStruct2 from '../assets/struct-2.jpg'
+import ImgStruct3 from '../assets/struct-3.jpg'
+import ImgStruct4 from '../assets/struct-4.jpg'
+import ImgStruct5 from '../assets/struct-5.jpg'
+import ImgStruct6 from '../assets/struct-6.jpg'
+import ImgStruct7 from '../assets/struct-7.jpg'
+import ImgStruct8 from '../assets/struct-8.jpg'
+import ImgStruct9 from '../assets/struct-9.jpg'
+
+export const ImgsStructure = [
+  { src: ImgStruct1, alt: '' },
+  { src: ImgStruct2, alt: '' },
+  { src: ImgStruct3, alt: '' },
+  { src: ImgStruct4, alt: '' },
+  { src: ImgStruct5, alt: '' },
+  { src: ImgStruct6, alt: '' },
+  { src: ImgStruct7, alt: '' },
+  { src: ImgStruct8, alt: '' },
+  { src: ImgStruct9, alt: '' }
+]
