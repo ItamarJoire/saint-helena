@@ -123,6 +123,8 @@ import ImgStruct6 from '../assets/struct-6.jpg'
 import ImgStruct7 from '../assets/struct-7.jpg'
 import ImgStruct8 from '../assets/struct-8.jpg'
 import ImgStruct9 from '../assets/struct-9.jpg'
+import ImgStruct10 from '../assets/struct-10.jpg'
+import ImgStruct11 from '../assets/struct-11.jpg'
 
 export const ImgsStructure = [
   { src: ImgStruct1, alt: '' },
@@ -133,5 +135,7 @@ export const ImgsStructure = [
   { src: ImgStruct6, alt: '' },
   { src: ImgStruct7, alt: '' },
   { src: ImgStruct8, alt: '' },
-  { src: ImgStruct9, alt: '' }
+  { src: ImgStruct9, alt: '' },
+  { src: ImgStruct10, alt: '' },
+  { src: ImgStruct11, alt: '' }
 ]
