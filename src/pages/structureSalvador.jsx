@@ -1,6 +1,6 @@
 import { Grid } from "../containers";
 
-import Local from '../assets/structure.png'
+import Local from '../assets/structure.jpg'
 import Mascot from '../assets/mascot.svg'
 import Circle3 from '../assets/circle-3.svg'
 import { Carousel } from "../components";
