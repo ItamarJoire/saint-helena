@@ -82,11 +82,13 @@ export function Header(){
       <a href="/"><img src={Logo} width={80} height={80} alt="" className="xl:w-[90px]"/></a>
 
         <ul className="flex gap-8 max-md:flex-col items-center">
-        <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl"><li>Início</li></Link>
-        <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl"><li>Estrutura</li></Link>
-        <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl"><li>Infantil</li></Link>
+          <Link to="/sobre" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl"><li>Início</li></Link>
+
+          <Link to="/estrutura-salvador" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl"><li>Estrutura</li></Link>
+          
+          <Link to="/educacao-infantil" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl"><li>Infantil</li></Link>
         
-        <Link to="" onClick={onButtonClick} className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl underline"><li>Toca da coruja</li></Link>
+        <li onClick={onButtonClick} className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest xl:text-xl underline">Toca da coruja</li>
         <a href="https://api.whatsapp.com/send?l=pt&phone=5571993019812&text=Olá! Tudo bem? Quero tirar algumas dúvidas, por favor." target="_blank" className="font-['Bungee'] text-white text-base font-semibold hover:opacity-60 duration-150 hover:cursor-pointer tracking-widest"><li><button className="font-['Bungee'] text-lg shadow-md font-medium rounded-lg px-6 py-2 bg-gradient-to-r from-secondary-yellow to-secondary-yellow-dark text-white hover:opacity-90 duration-200 xl:text-xl">
           Contato
         </button></li></a>

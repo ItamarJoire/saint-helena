@@ -1,9 +1,6 @@
-import { FaCircle } from 'react-icons/fa'
-
 import { Grid } from '../containers'
 
 import { ImgsGallery } from '../lib/imgs'
-
 
 export function ChildrenCard(){
   return(
@@ -270,7 +267,7 @@ export function ChildrenCard(){
               
                 
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[11].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[6].src} alt="" />
               </div>
             </div>
 
@@ -371,7 +368,7 @@ export function ChildrenCard(){
                 </div>
               </div>
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[11].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[8].src} alt="" />
               </div>
             </div>
 
