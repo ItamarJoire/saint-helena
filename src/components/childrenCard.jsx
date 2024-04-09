@@ -1,6 +1,6 @@
 import { Grid } from '../containers'
 
-import { ImgsGallery } from '../lib/imgs'
+import { ImgsGallery, ImgsGallery2 } from '../lib/imgs'
 
 export function ChildrenCard(){
   return(
@@ -368,7 +368,7 @@ export function ChildrenCard(){
                 </div>
               </div>
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[4].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery2[4].src} alt="" />
               </div>
             </div>
 
