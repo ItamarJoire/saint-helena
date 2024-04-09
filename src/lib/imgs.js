@@ -62,8 +62,6 @@ import ImgGallery7 from '../assets/gallery-7.jpg'
 import ImgGallery9 from '../assets/gallery-9.jpg'
 import ImgGallery10 from '../assets/gallery-10.jpg'
 import ImgGallery11 from '../assets/gallery-11.jpg'
-import ImgGallery12 from '../assets/gallery-12.jpg'
-import ImgGallery13 from '../assets/gallery-13.jpg'
 import ImgGallery14 from '../assets/gallery-14.jpg'
 import ImgGallery15 from '../assets/gallery-15.jpg'
 import ImgGallery16 from '../assets/gallery-16.jpg'
@@ -77,8 +75,6 @@ export const ImgsGallery = [
   { src: ImgGallery9, alt: '' },
   { src: ImgGallery10, alt: '' },
   { src: ImgGallery11, alt: '' },
-  { src: ImgGallery12, alt: '' },
-  { src: ImgGallery13, alt: '' },
   { src: ImgGallery14, alt: '' },
   { src: ImgGallery15, alt: '' },
   { src: ImgGallery16, alt: '' }
@@ -88,7 +84,6 @@ import ImgGallery17 from '../assets/gallery-17.jpg'
 import ImgGallery18 from '../assets/gallery-18.jpg'
 import ImgGallery19 from '../assets/gallery-19.jpg'
 import ImgGallery20 from '../assets/gallery-20.jpg'
-import ImgGallery21 from '../assets/gallery-21.jpg'
 import ImgGallery22 from '../assets/gallery-22.jpg'
 import ImgGallery23 from '../assets/gallery-23.jpg'
 import ImgGallery24 from '../assets/gallery-24.jpg'
@@ -103,7 +98,6 @@ export const ImgsGallery2 = [
   { src: ImgGallery18, alt: '' },
   { src: ImgGallery19, alt: '' },
   { src: ImgGallery20, alt: '' },
-  { src: ImgGallery21, alt: '' },
   { src: ImgGallery22, alt: '' },
   { src: ImgGallery23, alt: '' },
   { src: ImgGallery24, alt: '' },

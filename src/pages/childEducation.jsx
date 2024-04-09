@@ -24,10 +24,12 @@ export function ChildEducation(){
             <h1 className="font-['Bungee'] text-primary text-2xl text-center font-extrabold tracking-widest xl:text-3xl lg:mx-32 xl:mx-60">Dois idiomas, mais modos de <span className="text-secondary-yellow">pensar</span> e <span className="text-secondary-yellow">expressar</span></h1>
 
             <p className="mt-8 text-center text-xl text-gray-500 lg:mx-30 xl:text-2xl xl:mx-40">
-              Na <u>Saint Helena</u>, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma <span className=" font-medium">professora musicista com ampla experiência em educação musical, que ministra aula de musicalização.</span> Temos também <span className=" font-medium">aulas de teatro</span> a fim de promover a <span className=" font-medium">expressão de múltiplas linguagens</span>, <span className=" font-medium">fomentar o imaginário</span> e a <span className=" font-medium">desenvoltura</span>. Além disso, um <span className=" font-medium">educador físico que trabalha o desenvolvimento psicomotor com as crianças</span>. 
+              Na <u>Saint Helena</u>, a língua inglesa é utilizada como meio de comunicação, tornando a aprendizagem significativa e prazerosa para as crianças. Em todos os estágios de nossa educação infantil, temos uma <span className=" font-medium">professora musicista com ampla experiência em educação musical, que ministra aula de musicalização. </span>
+              
+              Além disso, um <span className="font-medium">educador físico que trabalha o desenvolvimento psicomotor com as crianças</span>. Temos também <span className=" font-medium">aulas de teatro</span> a fim de promover a <span className=" font-medium">expressão de múltiplas linguagens</span>, <span className=" font-medium">fomentar o imaginário</span> e a <span className=" font-medium">desenvoltura</span>. 
               <br />
               <br />
-              Em todas as turmas há a presença de mais um adulto, a professora assistente que, inclusive, acompanha os alunos nas <span className=" font-medium">aulas de música, teatro</span> e <span className=" font-medium">corpo</span> e <span className=" font-medium">movimento</span>.
+              Em todas as turmas há a presença de mais um adulto, a professora assistente que, inclusive, acompanha os alunos nas <span className=" font-medium">aulas de Música, Teatro</span> e <span className=" font-medium">Corpo</span> e <span className=" font-medium">Movimento</span>.
             </p>
           </div>
           </Grid>

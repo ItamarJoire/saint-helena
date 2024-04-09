@@ -196,7 +196,7 @@ export function ChildrenCard(){
 
               <div className="px-6">
                 <div className="mt-8">
-                  <h3 className="font-['Bungee'] text-secondary-yellow text-left xl:text-xl">Crianças de 4 anos</h3>
+                  <h3 className="font-['Bungee'] text-secondary-yellow text-left xl:text-xl">Crianças de 3 anos</h3>
 
                   <div className="space-y-4">
                     <div className="mt-2 flex">
@@ -324,7 +324,7 @@ export function ChildrenCard(){
                     <div className="flex">
                     <li className='text-secondary-yellow'></li>
                       <div>
-                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para desenvolvimento psicomotor com <u>professor especialista</u><span className="text-secondary-yellow">.</span></p>
+                        <p className="text-white xl:text-xl">1 aula semanal de <u>corpo e movimento</u> para <u>desenvolvimento psicomotor</u> com <u>professor especialista</u><span className="text-secondary-yellow">.</span></p>
                       </div>
                     </div>
 
