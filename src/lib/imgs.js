@@ -54,7 +54,7 @@ export const ImgsNature = [
   { src: ImgNature10, alt: '' }
 ]
 
-import ImgGallery1 from '../assets/gallery-1.jpg'
+// import ImgGallery1 from '../assets/gallery-1.jpg'
 import ImgGallery2 from '../assets/gallery-2.jpg'
 import ImgGallery5 from '../assets/gallery-5.jpg'
 import ImgGallery6 from '../assets/gallery-6.jpg'
@@ -63,11 +63,11 @@ import ImgGallery9 from '../assets/gallery-9.jpg'
 import ImgGallery10 from '../assets/gallery-10.jpg'
 import ImgGallery11 from '../assets/gallery-11.jpg'
 import ImgGallery14 from '../assets/gallery-14.jpg'
-import ImgGallery15 from '../assets/gallery-15.jpg'
+// import ImgGallery15 from '../assets/gallery-15.jpg'
 import ImgGallery16 from '../assets/gallery-16.jpg'
 
 export const ImgsGallery = [
-  { src: ImgGallery1, alt: '' },
+  // { src: ImgGallery1, alt: '' },
   { src: ImgGallery2, alt: '' },
   { src: ImgGallery5, alt: '' },
   { src: ImgGallery6, alt: '' },
@@ -76,7 +76,7 @@ export const ImgsGallery = [
   { src: ImgGallery10, alt: '' },
   { src: ImgGallery11, alt: '' },
   { src: ImgGallery14, alt: '' },
-  { src: ImgGallery15, alt: '' },
+  // { src: ImgGallery15, alt: '' },
   { src: ImgGallery16, alt: '' }
 ]
 
