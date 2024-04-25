@@ -1,8 +1,9 @@
-import { useState, useEffect, useLayoutEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay, Pagination } from 'swiper/modules'
+import { Navigation, Autoplay, Pagination, EffectFade } from 'swiper/modules'
 
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -33,9 +34,9 @@ export function CarouselStructure(){
   }, [navigationEnabled]);
 
   return(
-    <div className="relative bg-primary max-w-[400px] mx-auto rounded-xl sm:max-w-none sm:mx-0 lg:max-w-[640px] lg:mx-auto z-[-1] ">
+    <div className="relative bg-primary max-w-[400px] mx-auto rounded-xl sm:max-w-none sm:mx-0 lg:max-w-[640px] lg:mx-auto  ">
       <img className="absolute size-20 right-0 top-[-40px] sm:top-[-60px] z-10" src={Mascot} alt="" />
-      <div className="">
+      <div className="mySwiper">
       <Swiper
         style={{
           '--swiper-navigation-size': '24px',
@@ -47,12 +48,13 @@ export function CarouselStructure(){
         }}
 
         className='mySwiper'
-        spaceBetween={12}
+        effect={'fade'}
+        spaceBetween={2}
         slidesPerView={1}
         loop={true}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         centeredSlides={true}
-        modules={[Navigation, Autoplay, Pagination]}
+        modules={[EffectFade, Navigation, Autoplay, Pagination]}
         pagination={navigationEnabled ? false : true}
         navigation={navigationEnabled ? true : false}
       >
