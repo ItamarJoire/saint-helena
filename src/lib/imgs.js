@@ -133,3 +133,35 @@ export const ImgsStructure = [
   { src: ImgStruct10, alt: '' },
   { src: ImgStruct11, alt: '' }
 ]
+
+import ImgLocal1 from '../assets/locais-1.jpg'
+import ImgLocal2 from '../assets/locais-2.jpg'
+import ImgLocal3 from '../assets/locais-3.jpg'
+import ImgLocal4 from '../assets/locais-4.jpg'
+import ImgLocal5 from '../assets/locais-5.jpg'
+import ImgLocal6 from '../assets/locais-6.jpg'
+import ImgLocal7 from '../assets/locais-7.jpg'
+import ImgLocal8 from '../assets/locais-8.jpg'
+import ImgLocal9 from '../assets/locais-9.jpg'
+import ImgLocal10 from '../assets/locais-10.jpg'
+import ImgLocal11 from '../assets/locais-11.jpg'
+import ImgLocal12 from '../assets/locais-12.jpg'
+import ImgLocal13 from '../assets/locais-13.jpg'
+import ImgLocal14 from '../assets/locais-14.jpg'
+
+export const ImgsLocals = [
+  { src: ImgLocal1, alt: '' },
+  { src: ImgLocal2, alt: '' },
+  { src: ImgLocal3, alt: '' },
+  { src: ImgLocal4, alt: '' },
+  { src: ImgLocal5, alt: '' },
+  { src: ImgLocal6, alt: '' },
+  { src: ImgLocal7, alt: '' },
+  { src: ImgLocal8, alt: '' },
+  { src: ImgLocal9, alt: '' },
+  { src: ImgLocal10, alt: '' },
+  { src: ImgLocal11, alt: '' },
+  { src: ImgLocal12, alt: '' },
+  { src: ImgLocal13, alt: '' },
+  { src: ImgLocal14, alt: '' }
+]
