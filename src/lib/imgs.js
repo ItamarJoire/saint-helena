@@ -54,56 +54,36 @@ export const ImgsNature = [
   { src: ImgNature10, alt: '' }
 ]
 
-// import ImgGallery1 from '../assets/gallery-1.jpg'
-import ImgGallery2 from '../assets/gallery-2.jpg'
 import ImgGallery5 from '../assets/gallery-5.jpg'
 import ImgGallery6 from '../assets/gallery-6.jpg'
-// import ImgGallery7 from '../assets/gallery-7.jpg'
-import ImgGallery9 from '../assets/gallery-9.jpg'
 import ImgGallery10 from '../assets/gallery-10.jpg'
 import ImgGallery11 from '../assets/gallery-11.jpg'
-import ImgGallery14 from '../assets/gallery-14.jpg'
-// import ImgGallery15 from '../assets/gallery-15.jpg'
 import ImgGallery16 from '../assets/gallery-16.jpg'
 
 export const ImgsGallery = [
-  // { src: ImgGallery1, alt: '' },
-  { src: ImgGallery2, alt: '' },
   { src: ImgGallery5, alt: '' },
   { src: ImgGallery6, alt: '' },
-  // { src: ImgGallery7, alt: '' },
-  { src: ImgGallery9, alt: '' },
   { src: ImgGallery10, alt: '' },
   { src: ImgGallery11, alt: '' },
-  { src: ImgGallery14, alt: '' },
-  // { src: ImgGallery15, alt: '' },
   { src: ImgGallery16, alt: '' }
 ]
 
 import ImgGallery17 from '../assets/gallery-17.jpg'
 import ImgGallery18 from '../assets/gallery-18.jpg'
-import ImgGallery19 from '../assets/gallery-19.jpg'
-import ImgGallery20 from '../assets/gallery-20.jpg'
 import ImgGallery22 from '../assets/gallery-22.jpg'
 import ImgGallery23 from '../assets/gallery-23.jpg'
 import ImgGallery24 from '../assets/gallery-24.jpg'
-import ImgGallery25 from '../assets/gallery-25.jpg'
 import ImgGallery26 from '../assets/gallery-26.jpg'
-import ImgGallery27 from '../assets/gallery-27.jpg'
 import ImgGallery28 from '../assets/gallery-28.jpg'
 import ImgGallery29 from '../assets/gallery-29.jpg'
 
 export const ImgsGallery2 = [
   { src: ImgGallery17, alt: '' },
   { src: ImgGallery18, alt: '' },
-  { src: ImgGallery19, alt: '' },
-  { src: ImgGallery20, alt: '' },
   { src: ImgGallery22, alt: '' },
   { src: ImgGallery23, alt: '' },
   { src: ImgGallery24, alt: '' },
-  { src: ImgGallery25, alt: '' },
   { src: ImgGallery26, alt: '' },
-  { src: ImgGallery27, alt: '' },
   { src: ImgGallery28, alt: '' },
   { src: ImgGallery29, alt: '' }
 ]
