@@ -29,7 +29,7 @@ export function CarouselCard() {
        { 
           ImgsGallery.map((img, index) => (
             <SwiperSlide key={index}>
-                <img className='border-8 w-[300px] h-[300px] rounded-2xl border-secondary-yellow' src={img.src} alt={img.alt} />
+                <img className='border-8 w-[300px] h-[300px] rounded-2xl object-cover border-secondary-yellow' src={img.src} alt={img.alt} />
             </SwiperSlide>
           ))
         }
@@ -54,7 +54,7 @@ export function CarouselCard() {
        { 
           ImgsGallery2.map((img, index) => (
             <SwiperSlide key={index}>
-                <img className='border-8 w-[300px] h-[300px] rounded-2xl border-primary' src={img.src} alt={img.alt} />
+                <img className='border-8 w-[300px] h-[300px] rounded-2xl object-cover border-primary' src={img.src} alt={img.alt} />
             </SwiperSlide>
           ))
         }

@@ -57,7 +57,7 @@ export function ChildEducation(){
                   ImgsNature.map((img) => (
                     <div className="shadow-xl flex items-center mx-auto justify-center rounded-md bg-secondary-yellow opacity-90 h-[148px] w-[168px] overflow-hidden">
                     <div className="bg-contain rounded-md h-[140px] w-[160px] overflow-hidden" src>
-                      <img className="size-[180px]" src={img.src}  alt={img.alt} />
+                      <img className="size-[180px] object-cover" src={img.src}  alt={img.alt} />
                     </div>
                 </div>
                   ))

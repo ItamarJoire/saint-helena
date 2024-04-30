@@ -2,11 +2,16 @@ import { Grid } from '../containers'
 
 import { ImgsGallery, ImgsGallery2 } from '../lib/imgs'
 
+import ImgToddlers from '../assets/gallery-3.jpg'
+import ImgTiny from '../assets/gallery-5.jpg'
+import ImgPreKinder from '../assets/gallery-pre-kinder.jpg'
+import ImgKinder from '../assets/gallery-kinder.jpg'
+
+
 export function ChildrenCard(){
   return(
     <div className=''>
       <div className="relative pb-2">
-      
           <Grid>
             <div class="mx-auto bg-gradient-to-t from-primary-dark to-primary rounded-3xl xl:mx-28">
               <h1 className="pt-12 font-['Bungee'] text-white text-2xl text-center font-extrabold tracking-widest xl:text-3xl">Toodlers</h1>
@@ -73,7 +78,7 @@ export function ChildrenCard(){
               </div>
                 
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[0].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover lg:h-[540px]" src={ImgToddlers} alt="" />
               </div>
             </div>
           </Grid>
@@ -168,7 +173,7 @@ export function ChildrenCard(){
               
                 
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[1].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover lg:h-[540px]" src={ImgTiny} alt="" />
               </div>
             </div>
 
@@ -267,7 +272,7 @@ export function ChildrenCard(){
               
                 
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery[6].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover lg:h-[540px]" src={ImgPreKinder} alt="" />
               </div>
             </div>
 
@@ -368,7 +373,7 @@ export function ChildrenCard(){
                 </div>
               </div>
               <div className="mt-12">
-                <img class="border-mask w-full h-80 object-cover" src={ImgsGallery2[4].src} alt="" />
+                <img class="border-mask w-full h-80 object-cover lg:h-[540px]" src={ImgKinder} alt="" />
               </div>
             </div>
 
