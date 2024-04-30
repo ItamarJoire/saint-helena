@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import { CarouselFade } from './carouselFade';
 
-import ImgHero from '../assets/hero.jpg' 
+import ImgHero from '../assets/locais-15.jpg' 
 
 export function Hero() {
   useEffect(() => {
@@ -30,7 +30,7 @@ export function Hero() {
             </div>
 
             <div className='max-sm:hidden px-12'>
-              <img className='border-8 rounded-2xl border-secondary-yellow w-[500px]' src={ImgHero} alt="" />
+              <img className='border-8 rounded-2xl border-secondary-yellow w-[500px] h-[340px] lg:h-[400px] object-cover' src={ImgHero} alt="" />
             </div>
           </div>
       </div>
