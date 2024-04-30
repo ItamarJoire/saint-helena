@@ -66,7 +66,7 @@ export function CarouselFade(){
             { 
               ImgsDesktop.map((img, index) => (
                 <SwiperSlide key={index}>
-                    <img className='w-screen h-auto' src={img.src} alt={img.alt} />
+                    <img className='w-screen h-auto lg:h-[84vh] ' src={img.src} alt={img.alt} />
                 </SwiperSlide>
               ))
             }
