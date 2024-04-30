@@ -1,21 +1,25 @@
 import ImgMobile1 from '../assets/card1-mobile.png'
 import ImgMobile2 from '../assets/card2-mobile.png'
 import ImgMobile3 from '../assets/card3-mobile.png'
+import ImgMobile4 from '../assets/card4-mobile.png'
 
 export const ImgsMobile = [
   { src: ImgMobile1, alt: '' },
   { src: ImgMobile3, alt: '' },
-  { src: ImgMobile2, alt: '' }
+  { src: ImgMobile2, alt: '' },
+  { src: ImgMobile4, alt: '' }
 ]
 
 import ImgDesktop1 from '../assets/card1-desktop.jpg'
 import ImgDesktop2 from '../assets/card2-desktop.jpg'
 import ImgDesktop3 from '../assets/card3-desktop.jpg'
+import ImgDesktop4 from '../assets/card4-desktop.jpg'
 
 export const ImgsDesktop = [
   { src: ImgDesktop1, alt: '' },
   { src: ImgDesktop3, alt: '' },
-  { src: ImgDesktop2, alt: '' }
+  { src: ImgDesktop2, alt: '' },
+  { src: ImgDesktop4, alt: '' }
 ]
 
 import ImgChildren2Nature from '../assets/children-2-nature.jpg'
